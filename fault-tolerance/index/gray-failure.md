@@ -4,7 +4,11 @@ description: 'https://www.cs.jhu.edu/~huang/paper/grayfailure-hotos17.pdf'
 
 # Gray Failure: The Achilles’ Heel of Cloud-Scale Systems
 
+### TL;DR:
+
 This paper proposes a definition for ****[**gray failures**](https://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf) ****and argues that a key feature of such failures is **differential observability:** instances of gray failure possess is that they are perceived differently by different entities. 
+
+### Gray Failures
 
 ![](../../.gitbook/assets/screen-shot-2020-03-13-at-2.59.50-pm.png)
 
