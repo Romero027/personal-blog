@@ -16,13 +16,15 @@ As a result, the main goal of this paper is to design a failure detector that ca
 
 Based on this insight, Panorama takes a collaborative approach: It gathers observations about each component from different sources in real time to detect complex production failures. 
 
-![](../../.gitbook/assets/screen-shot-2020-03-22-at-1.46.16-am.png)
+![](../../.gitbook/assets/screen-shot-2020-03-22-at-2.30.16-am.png)
 
 Panorama is divided into two phases: 
 
 #### Offline Phase
 
 Panorama includes an offline tool that statically analyses a program’s source code \(using Soot\), finds critical points for observation capture, and injects hooks\(green lines in the below figure\) for reporting observations \(using AspectJ\). A typical example of an observation point would be an exception handler invoked when an exception occurs at an observation boundary. We also need positive \(i.e. success\) observations too of course.
+
+One nice thing about these hooks is that they captures first-hand observations, especially runtime errors that are generated from the executions of these code regions in production. Thus, when Panorama reports a failure, there is concrete evidence and context to help localize where the failure happened.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-22-at-2.11.20-am.png)
 
