@@ -24,13 +24,13 @@ Panorama is divided into two phases:
 
 Panorama includes an offline tool that statically analyses a program’s source code \(using Soot\), finds critical points for observation capture, and injects hooks\(green lines in the below figure\) for reporting observations \(using AspectJ\). A typical example of an observation point would be an exception handler invoked when an exception occurs at an observation boundary. We also need positive \(i.e. success\) observations too of course.
 
-One nice thing about these hooks is that they captures first-hand observations, especially runtime errors that are generated from the executions of these code regions in production. Thus, when Panorama reports a failure, there is concrete evidence and context to help localize where the failure happened.
+One nice thing about these hooks is that they capture first-hand observations, especially runtime errors that are generated from the executions of these code regions in production. Thus, when Panorama reports a failure, there is concrete evidence and context to help localize where the failure happened.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-22-at-2.11.20-am.png)
 
 ### Runtime Phase
 
-Each Panorama instance maintains a Local Observation Store\(LOS\) that stores all observations reports made by colocated components. The observations are 1\) synchronized with that of other Panorama instances that share common subjects\(a subject is a process that is observed\). There is also a _central verdict server that_ allows easy querying of judgements and arbitrates amongst the decentralised LOSes.
+Each Panorama instance maintains a Local Observation Store\(LOS\) that stores all observations reports made by colocated components. The observations are 1\) synchronized with that of other Panorama instances that share common subjects\(a subject is a process that is observed\). There is also a _central verdict server that_ allows easy querying of judgments and arbitrates amongst the decentralized LOSes.
 
 With the observations collected about a subject, Panorama uses decision engine to reach a verdict and stores the result in the LOS. A process is judged as unhealthy if the latest status is unhealthy or the healthy status does not have a recent majority. The summaries across all observers are then aggregated and status decided using a simple majority.
 
@@ -42,7 +42,7 @@ Panorama was applied to ZooKeeper, HDFS, HBase, and Cassandra, at both the proce
 
 One thing to note is that:
 
-> When a Panorama instance is active, it consumed about 0.7% of CPU on average, and up to around 50MB of memory for a highly active instance. The latency increase and throughput decrease for each instrumented system is below 3%.
+> When a Panorama instance is active, it consumed about 0.7% of CPU on average, and up to around 50MB of memory for a highly active instance. The latency increase and throughput decrease for each instrumented system are below 3%.
 
 
 
