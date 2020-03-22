@@ -23,6 +23,8 @@ The scale $$s/\epsilon$$ of the Laplace distribution controls its spread: the di
 
 Check [this](https://desfontain.es/privacy/differential-privacy-in-practice.html) link for a concrete example.
 
+Reference:  Honeycrisp: Large-Scale Differentially Private Aggregation Without a Trusted Core - Roth et al., SOSP' 19
+
 
 
 
