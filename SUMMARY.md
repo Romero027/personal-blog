@@ -48,6 +48,7 @@
 
 * [Index](fault-tolerance/index/README.md)
   * [Gray Failure: The Achilles’ Heel of Cloud-Scale Systems](fault-tolerance/index/gray-failure.md)
+  * [Capturing and Enhancing In Situ System Observability for Failure Detection](fault-tolerance/index/capturing-and-enhancing-in-situ-system-observability-for-failure-detection.md)
   * [Check before You Change: Preventing Correlated Failures in Service Updates](fault-tolerance/index/check-before-you-change-preventing-correlated-failures-in-service-updates.md)
   * [Efficient Scalable Thread-Safety-Violation Detection](fault-tolerance/index/efficient-scalable-thread-safety-violation-detection.md)
   * [REPT: Reverse Debugging of Failures in Deployed Software](fault-tolerance/index/rept-reverse-debugging-of-failures-in-deployed-software.md)
