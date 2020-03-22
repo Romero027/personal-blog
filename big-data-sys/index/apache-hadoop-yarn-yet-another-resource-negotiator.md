@@ -14,7 +14,7 @@ The root of all problems was the fact that MapReduce had too many responsibiliti
 
 ### Architecture:
 
-![https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html](../../.gitbook/assets/image%20%287%29.png)
+![https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html](../../.gitbook/assets/image%20%289%29.png)
 
 The `ResourceManger` \[2\] is the master daemon that communicates with clients, tracks resources on the cluster and assigning tasks to `NodeManagers`.
 

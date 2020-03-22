@@ -44,7 +44,7 @@ Challenge: Develop domain-specific architectures and software systems to address
 
 To enable progress on these fronts, the paper then proposes nine research topics and divides them into three main research area. 
 
-![Mapping from trends to challenges and research topics](../../.gitbook/assets/image%20%289%29.png)
+![Mapping from trends to challenges and research topics](../../.gitbook/assets/image%20%2811%29.png)
 
 ### Acting in dynamic environments:
 

@@ -34,7 +34,7 @@ Note: 1. It is also important to note that the distribution $$\mathcal{Q}$$ and 
 
 Some recent [works](https://arxiv.org/pdf/1910.00189.pdf) show that mose decentralized learning algorithms suffer from major model quality loss \(or even divergence\) when run on non-IID data partitions. However, it is interesting to note that BSP is robust to Non-IID data.
 
-![https://arxiv.org/pdf/1910.00189.pdf](../../.gitbook/assets/image%20%2812%29.png)
+![https://arxiv.org/pdf/1910.00189.pdf](../../.gitbook/assets/image%20%2814%29.png)
 
 It is [shown](https://arxiv.org/pdf/1806.00582.pdf) that the accuracy may be affected by the exact data distribution, i.e. the skewness of data distribution. More specifically, the skewness can be roughly interpreted as the distance between the data distribution on each client and the population distribution. In addition, such distance can be evaluated with the [earth mover's distance](https://en.wikipedia.org/wiki/Earth_mover%27s_distance)\(EMD\) between distributions. Based on experiment on real-world dataset, the test accuracy falls sharply with respect to EMD beyond certain threshold. 
 

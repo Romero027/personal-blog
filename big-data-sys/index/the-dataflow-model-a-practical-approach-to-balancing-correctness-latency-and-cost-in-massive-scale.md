@@ -88,7 +88,7 @@ There are a handful of approaches one can take when dealing with data that have 
 
 The following diagram shows three different windowing patterns:
 
-![From Tyler Akidau](../../.gitbook/assets/image%20%286%29.png)
+![From Tyler Akidau](../../.gitbook/assets/image%20%288%29.png)
 
 **Fixed windows**: Fixed windows slice up time into segments with a fixed-size temporal length.\(e.g. hourly windows or daily windows\). They are generally aligned. 
 
@@ -100,7 +100,7 @@ The following diagram shows three different windowing patterns:
 
   When windowing by processing time, the system essentially buffers up incoming data into windows until some amount of processing time has passed. For example, in the case of five-minute fixed windows, the system would buffer up data for five minutes of processing time, after which it would treat all the data it had observed in those five minutes as a window and send them downstream for processing. Windowing by processing time is simple and makes it simple to judge window completeness. 
 
-![From Tyler Akidau ](../../.gitbook/assets/image%20%2810%29.png)
+![From Tyler Akidau ](../../.gitbook/assets/image%20%2812%29.png)
 
 However, there is one very big downside to processing time windowing: _if the data in question have event times associated with them, those data must arrive in event time order if the processing time windows are to reflect the reality of when those events actually happened_. Unfortunately, event-time ordered data are uncommon in many real-world, distributed input sources. Thus, If you are windowing that data by processing time, your windows are will be some arbitrary mix of old and current data in terms of event time. 
 
@@ -108,11 +108,11 @@ However, there is one very big downside to processing time windowing: _if the da
 
   ****Event time windowing is what you use when you need to observe a data source in finite chunks that reflect the times at which those events actually happened. Sadly, most data processing systems in use today lack native support for it. 
 
-![From Tyler Akidau](../../.gitbook/assets/image%20%2815%29.png)
+![From Tyler Akidau](../../.gitbook/assets/image%20%2817%29.png)
 
 Another nice thing about event time windowing over an unbounded data source is that you can create dynamically sized windows, such as sessions, without the arbitrary splits observed when generating sessions over fixed windows
 
-![From Tyler Akidau](../../.gitbook/assets/image%20%288%29.png)
+![From Tyler Akidau](../../.gitbook/assets/image%20%2810%29.png)
 
 However, windowing by event time is much more expensive because: 1. **Buffering:** Due to extended window lifetimes, more buffering of data is required. Thankfully, persistent storage is generally the cheapest of the resource types most data processing systems depend on. 2. **Completeness:** Given that we often have no good way of knowing when we’ve seen _all_ the data for a given window, how do we know when the results for the window are ready to materialize? Keep this question in mind and we will discuss it in great detail later. 
 
@@ -157,7 +157,7 @@ The mechanism in Flink to measure progress in event time is **watermarks**. Wate
 
 Watermarks are crucial for _out-of-order_ streams, as illustrated below, where the events are not ordered by their timestamps. In general a watermark is a declaration that by that point in the stream, all events up to a certain timestamp should have arrived. Once a watermark reaches an operator, the operator can advance its internal _event time clock_ to the value of the watermark.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 To reiterate, it is possible that certain elements will violate the watermark condition, meaning that even after the _Watermark\(t\)_ has occurred, more elements with timestamp _t’ &lt;= t_ will occur. Late elements are elements that arrive after the system’s event time clock \(as signaled by the watermarks\) has already passed the time of the late element’s timestamp. 
 

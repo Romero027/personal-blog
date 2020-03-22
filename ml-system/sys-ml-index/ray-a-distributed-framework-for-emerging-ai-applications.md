@@ -55,7 +55,7 @@ To capture the state dependency across subsequent method invocations on the **sa
 
 Ray's architecture comprises 1\) an application layer implementing the API, and 2\) a system layer providing high scalability and fault tolerance. 
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 #### Application Layer:
 
