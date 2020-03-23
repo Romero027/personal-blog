@@ -81,3 +81,15 @@ The FIFO communication strategy is the default for most frameworks, but, as we s
 
 However, I have a few questions about this strategy. 1\) The authors seem to assume that communication time is far more than computation time. However, if we have a faster network and/or slower CPUs\(i.e. $$b_i < push_i$$ \), the above strategy will not work very well. 2\) If we partition the tensors, we may exacerbate the problem of stragglers, since there will be a hard barrier at the end of each partition.
 
+### [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
+
+This paper provides a study of issues that affect cluster utilization for DNN training workloads on multi-tenant clusters. They key takeaways are:
+
+* For distributed learning, deep learning frameworks require all the GPUs to be available at the same time. Thus the scheduler needs to perform **gang scheduling** while being **locality-aware**, i.e., pack a job’s GPUs onto the smallest number of servers and within a rack.
+* Even using the state-of-the-art DL system, training jobs **underutilize** GPU processing cycles regardless of their job\(batch\) size and it is worse for jobs that requires more GPUs\(e.g., sync\).
+* Job colocation on the same server could lead to **interference** in shared systems resources\(e.g., RDMA and PCIe\) and lowers the utilization of GPUs\(compared to jobs that run exclusively on a server\). 
+* A majority of jobs improve the loss marginally using a large fraction of epochs. In particular, around 75% of jobs reach within 0.1% of the lowest loss using only 40% of the epoches. This suggests that one can early terminate jobs to save use of GPU times considerably. 
+* A large number of job failures come from user errors in code or configuration. Thus, simple syntax checking or static analysis could prevent many errors.
+
+
+
