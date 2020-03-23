@@ -131,6 +131,7 @@
 
 ## Misc. <a id="misc"></a>
 
+* [Python Global Interpreter Lock](misc/python-global-interpreter-lock.md)
 * [The Actor Model](misc/actor-model.md)
 * [Rate Limiting](misc/rate-limiting.md)
 * [Load Balancing](misc/load-balancing.md)
