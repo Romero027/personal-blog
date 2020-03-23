@@ -65,8 +65,8 @@
 * \*\*\*\*[Cartel: A System for Collaborative Transfer Learning at the Edge](https://dl.acm.org/citation.cfm?id=3362708) - Daga et al., SoCC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#cartel-a-system-for-collaborative-transfer-learning-at-the-edge-daga-et-al-2019)\]
   * Proposed a framework for Collaborative Learning
 * [Collaborative Learning between Cloud and End Devices: An Empirical Study on Location Prediction](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/sec19colla.pdf) - Lu et al., SEC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#collaborative-learning-between-cloud-and-end-devices-an-empirical-study-on-location-prediction-lu-et-al-2019)\]
-* [DeepXplore: Automated Whitebox Testing of Deep Learning Systems](http://www.cs.columbia.edu/~junfeng/papers/deepxplore-sosp17.pdf) - Pei et al., SOSP' 17 \[Summary\]
-* [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/conference/atc19/presentation/jeon) - Jeon et al., ATC' 19 \[Summary\]
+* [DeepXplore: Automated Whitebox Testing of Deep Learning Systems](http://www.cs.columbia.edu/~junfeng/papers/deepxplore-sosp17.pdf) - Pei et al., SOSP' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/deepxplore-automated-whitebox-testingof-deep-learning-systems)\]
+* [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/conference/atc19/presentation/jeon) - Jeon et al., ATC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/misc-1#analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads)\]
 * [A unifying view on dataset shift in classification](https://rtg.cis.upenn.edu/cis700-2019/papers/dataset-shift/dataset-shift-terminology.pdf) - Moreno-Torres et al., 2010 
   * Explained various types of data shift\(i.e. covariate shift, . prior probability shift and Concept Shift\) 
 
