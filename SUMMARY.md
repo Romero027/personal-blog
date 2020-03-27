@@ -89,6 +89,12 @@
 ## Systems for ML <a id="ml-system"></a>
 
 * [Index](ml-system/sys-ml-index/README.md)
+  * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](ml-system/sys-ml-index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
+  * [Chameleon: Scalable Adaptation of Video Analytics](ml-system/sys-ml-index/chameleon-scalable-adaptation-of-video-analytics.md)
+  * [NoScope: Optimizing Neural Network Queriesover Video at Scale](ml-system/sys-ml-index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
+  * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](ml-system/sys-ml-index/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
+  * [Scaling Video Analytics on Constrained Edge Nodes](ml-system/sys-ml-index/untitled.md)
+  * [Workshop papers](ml-system/sys-ml-index/workshop-papers.md)
   * [Hidden Technical Debt in Machine Learning Systems](ml-system/sys-ml-index/hidden-technical-debt-in-machine-learning-systems.md)
   * [Prediction Serving Systems](ml-system/sys-ml-index/prediction-serving.md)
   * [Parameter Servers and AllReduce](ml-system/sys-ml-index/parameter-servers.md)
@@ -103,6 +109,7 @@
 ## ML for Systems
 
 * [Index](ml-for-systems/ml-sys-index/README.md)
+  * [Learning in situ: a randomized experiment in video streaming](ml-for-systems/ml-sys-index/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
   * [Learning Scheduling Algorithms for Data Processing Clusters](ml-for-systems/ml-sys-index/learning-scheduling-algorithms-for-data-processing-clusters.md)
   * [The Case for Learned Index Structures](ml-for-systems/ml-sys-index/the-case-for-learned-index-structures.md)
 
@@ -112,17 +119,6 @@
   * [Deep Learning with Differential Privacy](machine-learning/untitled/dl-fl-with-differential-privacy.md)
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
-
-## Video <a id="video-analytics"></a>
-
-* [Index](video-analytics/untitled/README.md)
-  * [Learning in situ: a randomized experiment in video streaming](video-analytics/untitled/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
-  * [Scaling Video Analytics on Constrained Edge Nodes](video-analytics/untitled/untitled.md)
-  * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](video-analytics/untitled/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
-  * [NoScope: Optimizing Neural Network Queriesover Video at Scale](video-analytics/untitled/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
-  * [Chameleon: Scalable Adaptation of Video Analytics](video-analytics/untitled/chameleon-scalable-adaptation-of-video-analytics.md)
-  * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](video-analytics/untitled/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
-  * [Workshop papers](video-analytics/untitled/workshop-papers.md)
 
 ## Security/Privacy
 

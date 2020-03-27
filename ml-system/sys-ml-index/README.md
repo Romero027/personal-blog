@@ -60,6 +60,16 @@
 * [Machine Learning at Facebook: Understanding Inference at the Edge](https://research.fb.com/wp-content/uploads/2018/12/Machine-Learning-at-Facebook-Understanding-Inference-at-the-Edge.pdf) - Wu et al., 2018 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#machine-learning-at-facebook-understanding-inference-at-the-edge-wu-et-al-2018)\]
   * Facebook's work on bringing machine learning inference to the edge. 
 
+### Video Analytics
+
+* [NoScope: Optimizing Neural Network Queries over Video at Scale](http://www.vldb.org/pvldb/vol10/p1586-kang.pdf) - Kang et al, VLDB' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/video-analytics/untitled/noscope-optimizing-neural-network-queriesover-video-at-scale)\]
+* [Live Video Analytics at Scale with Approximation and Delay-Tolerance](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf) - Zhang et al., NSDI17' \[[Summary](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf)\]
+* [Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf) - Jiang et al., SIGCOMM' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/video-analytics/untitled/chameleon-scalable-adaptation-of-video-analytics)\]
+* [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://www.usenix.org/system/files/osdi18-hsieh.pdf) - Hsieh et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/focus-querying-large-video-datasetswith-low-latency-and-low-cost)\]
+  * Presented Focus, a system provide low-cost and low-latency querying on large historical video datasets 
+* [Scaling Video Analytics on Constrained Edge Nodes](https://arxiv.org/abs/1905.13536) - Canel et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/untitled)\]
+  * Introduced FilterForward, an edge-to-cloud system that identifies the video sequences that are relevant to datacenter applications and offloads only that data for further analysis. 
+
 ### Misc.
 
 * \*\*\*\*[Cartel: A System for Collaborative Transfer Learning at the Edge](https://dl.acm.org/citation.cfm?id=3362708) - Daga et al., SoCC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#cartel-a-system-for-collaborative-transfer-learning-at-the-edge-daga-et-al-2019)\]
