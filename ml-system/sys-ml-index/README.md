@@ -50,7 +50,7 @@
   * Discussed the challenge of prediction serving systems and presented their general-purpose low-latency prediction serving system.
 * [Pretzel: Opening the Black Box of Machine Learning Prediction Serving Systems](https://www.usenix.org/system/files/osdi18-lee.pdf) - Lee et al., OSDI' 18
 * [Parity Models: Erasure-Coded Resilience for Prediction Serving Systems](http://delivery.acm.org/10.1145/3360000/3359654/p30-kosaian.pdf?ip=35.3.50.157&id=3359654&acc=OPENTOC&key=93447E3B54F7D979%2E0A17827594E6F2C8%2E4D4702B0C3E38B35%2EC42B82B87617960C&__acm__=1572846710_212460fc2118b4ddbb56646253af114b) - Kosaian et al, SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
-* [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://dl.acm.org/doi/10.1145/3341301.3359658) - Shen et al., SOSP' 19 \[Summary\]
+* [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://dl.acm.org/doi/10.1145/3341301.3359658) - Shen et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
 
 ### Machine Learning Systems in industry
 
