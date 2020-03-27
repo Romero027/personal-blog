@@ -113,9 +113,10 @@
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
 
-## Video Analytics
+## Video <a id="video-analytics"></a>
 
 * [Index](video-analytics/untitled/README.md)
+  * [Learning in situ: a randomized experiment in video streaming](video-analytics/untitled/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
   * [Scaling Video Analytics on Constrained Edge Nodes](video-analytics/untitled/untitled.md)
   * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](video-analytics/untitled/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
   * [NoScope: Optimizing Neural Network Queriesover Video at Scale](video-analytics/untitled/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
