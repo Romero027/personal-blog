@@ -111,7 +111,6 @@
 * [Index](ml-for-systems/ml-sys-index/README.md)
   * [Learning in situ: a randomized experiment in video streaming](ml-for-systems/ml-sys-index/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
   * [Learning Scheduling Algorithms for Data Processing Clusters](ml-for-systems/ml-sys-index/learning-scheduling-algorithms-for-data-processing-clusters.md)
-  * [The Case for Learned Index Structures](ml-for-systems/ml-sys-index/the-case-for-learned-index-structures.md)
 
 ## Machine Learning
 
