@@ -37,9 +37,13 @@ The authors implemented the existing approaches in their live TV streaming websi
 
 ###  Fugu
 
-We describe Fugu, a data-driven ABR algorithm that combines several techniques. Fugu is based on MPC \(model predictive control\), a classical control policy, but replaces its throughput predictor with a deep neural network trained using supervised learning on data recorded **in situ** \(in place\), meaning from Fugu’s actual deployment environment, Puffer. The predictor's input includes the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty. 
+We describe Fugu, a data-driven ABR algorithm that combines several techniques. Fugu is based on MPC \(model predictive control\), a classical control policy, but replaces its throughput predictor with a deep neural network trained using supervised learning on data recorded **in situ** \(in place\), meaning from Fugu’s actual deployment environment, Puffer. In other words, Fugu does not replay throughput traces or require network simulators\(we don't know how to faithfully simulate the Internet!\)
 
 ![](../../.gitbook/assets/screen-shot-2020-03-28-at-1.37.11-am.png)
+
+### 
+
+The predictor's input includes the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty.
 
 ### Conclusion
 
