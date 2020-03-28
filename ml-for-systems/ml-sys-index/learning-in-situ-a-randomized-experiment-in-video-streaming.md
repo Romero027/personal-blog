@@ -8,11 +8,11 @@ description: 'https://www.usenix.org/system/files/nsdi20-paper-yan.pdf'
 
 #### Adaptive Video Streaming
 
-In the basic adaptive video streaming problem, each video consists of multiple segments or “chunks” \(corresponding to a few seconds of play time\) and each chunk is encoded at multiple discrete bitrates. The chunks from different bitrate streams are aligned so that the video player can switch to a different bitrate if necessary at a chunk boundary. 
+In the basic adaptive video streaming problem, each video consists of multiple segments or “chunks” \(corresponding to a few seconds of playtime\), and each chunk is encoded at multiple discrete bitrates. The chunks from different bitrate streams are aligned so that the video player can switch to a different bitrate if necessary at a chunk boundary. 
 
 ![Credit: Xiaoqi Yin et al](../../.gitbook/assets/screen-shot-2020-03-27-at-9.33.37-pm.png)
 
-The above figure shows an abstract model of adaptive video player. The player uses some inputs \(e.g., buffer occupancy or estimates of the network throughput\) in its decision logic\(i.e., the **Adaptive Bitrate Selection\(ABR\)** algorithm\) to choose the bitrate level for the next chunks. In making this decision, there are many potentially conflict **Quality of Experience**\(QoE\) considerations a player must account for: 
+The above figure shows an abstract model of an adaptive video player. The player uses some inputs \(e.g., buffer occupancy or estimates of the network throughput\) in its decision logic\(i.e., the **Adaptive Bitrate Selection\(ABR\)** algorithm\) to choose the bitrate level for the next chunks. In making this decision, there are many potentially conflict **Quality of Experience**\(QoE\) considerations a player must account for: 
 
 1. Minimize rebuffering events where the playback buffer is empty and cannot render the video
 2. Deliver as high a playback bitrate as possible within the throughput constraints
@@ -27,23 +27,25 @@ Researchers have produced a literature of ABR schemes, including “rate-based�
 
 ### Puffer
 
-The authors implemented the existing approaches in their live TV streaming website, Puffer, where user sessions are randomized to different algorithm. The key takeaway of their findings are:
+The authors implemented the existing approaches in their live TV streaming website, Puffer, where user sessions are randomized to different algorithms. The key takeaway of their findings are:
 
-* **Confidence intervals in video streaming are bigger than expected.** The below figure is the result of running the algorithms on 17 days of video and we can observe that the confidence interval is quite large. The authors argue that we need **2 years of video per scheme to reliably measure a 20% difference**\(but in the paper of existing works, they only uses several days of data.\) The main reason is that **Internet is way more noisy and heavy-tailed**. For example, of the 637,189 streams considered for the primary analysis across all five ABR schemes, only 4% of those streams had any stalls.
+* **Confidence intervals in video streaming are bigger than expected.** The below figure is the result of running the algorithms on 17 days of video, and we can observe that the confidence interval is quite large. The authors argue that we need **2 years of video per scheme to reliably measure a 20% difference**\(but in the paper of existing works, they only use several days of data.\) The main reason is that the **Internet is way more noisy and heavy-tailed**. For example, of the 637,189 streams considered for the primary analysis across all five ABR schemes, only 4% of those streams had any stalls.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-28-at-12.30.30-am.png)
 
-* **Sophisticated algorithm did not outperform simple buffer-based control.** [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf) is arguably the simplest algorithm among the existing work, but the experimental result shows that more-sophisticated algorithm do not necessarily beat this simple and old algorithm in production. One reason might be that the new algorithm was evaluated using throughput traces that may not have captured enough of the Internet's heavy tails and other dynamics. However, it is shown that retrain them on more-representative traces doesn't necessarily reverse this.  
+* **Sophisticated algorithms did not outperform simple buffer-based control.** [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf) is arguably the simplest algorithm among the existing work, but the experimental result shows that more-sophisticated algorithms do not necessarily beat this simple and old algorithm in production. One reason might be that the new algorithm was evaluated using throughput traces that may not have captured enough of the Internet's heavy tails and other dynamics. However, it is shown that retrain them on more-representative traces doesn't necessarily reverse this.  
 
 ###  Fugu
 
-We describe Fugu, a data-driven ABR algorithm that combines several techniques. Fugu is based on MPC \(model predictive control\), a classical control policy, but replaces its throughput predictor with a deep neural network trained using supervised learning on data recorded in situ \(in place\), meaning from Fugu’s actual deployment environment, Puffer. The predictor's input include the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty. 
+We describe Fugu, a data-driven ABR algorithm that combines several techniques. Fugu is based on MPC \(model predictive control\), a classical control policy, but replaces its throughput predictor with a deep neural network trained using supervised learning on data recorded in situ \(in place\), meaning from Fugu’s actual deployment environment, Puffer. The predictor's input includes the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty. 
+
+![](../../.gitbook/assets/screen-shot-2020-03-28-at-1.37.11-am.png)
 
 ### Conclusion
 
-> We conclude that robustly beating “simple” algorithms with machine learning may be surprisingly difficult, notwithstanding promising results in contained environments such as simulators and emulators
+> We conclude that robustly beating “simple” algorithms with machine learning may be surprisingly difficult, notwithstanding promising results in contained environments such as simulators and emulators.
 >
-> it is difficult to characterize the systematic uncertainty that comes from selecting a set of traces that may omit the variability or heavy tailed nature of a real deployment experience \(both network behaviors as well as user behaviors, such as watch duration\).
+> it is difficult to characterize the systematic uncertainty that comes from selecting a set of traces that may omit the variability or heavy-tailed nature of a real deployment experience \(both network behaviors as well as user behaviors, such as watch duration\).
 
 
 
