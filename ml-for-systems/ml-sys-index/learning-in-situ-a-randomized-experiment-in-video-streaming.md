@@ -25,18 +25,19 @@ To see why these objectives are conflicting, let us consider two extreme solutio
 
 Researchers have produced a literature of ABR schemes, including “rate-based” approaches that focus on matching the video bitrate to the network throughput\(e.g., [FESTIVE](https://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf)\), “buffer-based” algorithms that steer the duration of the playback buffer\(e.g., [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf)\), [control theoretic schemes](https://users.ece.cmu.edu/~vsekar/papers/sigcomm15_mpcdash.pdf) that try to maximize expected QoE over a receding horizon, given the upcoming chunk sizes and a prediction of the future throughput, and learning-based schemes\(e.g., Pensieve\).
 
+### Puffer
 
+The authors implemented the existing approaches in their live TV streaming website, Puffer, where user sessions are randomized to different algorithm. The key takeaway of their findings are:
 
+* **Confidence intervals in video streaming are bigger than expected.** The below figure is the result of running the algorithms on 17 days of video and we can observe that the confidence interval is quite large. The authors argue that we need **2 years of video per scheme to reliably measure a 20% difference**\(but in the paper of existing works, they only uses several days of data.\) The main reason is that internet is way more noisy and heavy-tailed. For example, of the 637,189 streams considered for the primary analysis across all five ABR schemes, only 4% of those streams had any stalls.
 
+![](../../.gitbook/assets/screen-shot-2020-03-28-at-12.30.30-am.png)
 
+* **Sophisticated algorithm did not outperform simple buffer-based control.** [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf) is arguably the simplest algorithm among the existing work, but the experimental result shows that more-sophisticated algorithm do not necessarily beat this simple and old algorithm in production. One reason might be that the new algorithm was evaluated using throughput traces that may not have captured enough of the Internet's heavy tails and other dynamics. However, it is shown that retrain them on more-representative traces doesn't necessarily reverse this.  
 
+###  Fugu
 
-
-
-[https://reproducingnetworkresearch.files.wordpress.com/2018/07/recreating\_pensieve.pdf](https://reproducingnetworkresearch.files.wordpress.com/2018/07/recreating_pensieve.pdf)  
-[https://conferences.sigcomm.org/hotnets/2017/papers/hotnets17-final59.pdf](https://conferences.sigcomm.org/hotnets/2017/papers/hotnets17-final59.pdf)
-
-Real-world Video Adaptation with Reinforcement Learning
+To solve 
 
 
 
