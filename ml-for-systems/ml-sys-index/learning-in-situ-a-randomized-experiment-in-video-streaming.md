@@ -29,7 +29,7 @@ Researchers have produced a literature of ABR schemes, including “rate-based�
 
 The authors implemented the existing approaches in their live TV streaming website, Puffer, where user sessions are randomized to different algorithm. The key takeaway of their findings are:
 
-* **Confidence intervals in video streaming are bigger than expected.** The below figure is the result of running the algorithms on 17 days of video and we can observe that the confidence interval is quite large. The authors argue that we need **2 years of video per scheme to reliably measure a 20% difference**\(but in the paper of existing works, they only uses several days of data.\) The main reason is that internet is way more noisy and heavy-tailed. For example, of the 637,189 streams considered for the primary analysis across all five ABR schemes, only 4% of those streams had any stalls.
+* **Confidence intervals in video streaming are bigger than expected.** The below figure is the result of running the algorithms on 17 days of video and we can observe that the confidence interval is quite large. The authors argue that we need **2 years of video per scheme to reliably measure a 20% difference**\(but in the paper of existing works, they only uses several days of data.\) The main reason is that **Internet is way more noisy and heavy-tailed**. For example, of the 637,189 streams considered for the primary analysis across all five ABR schemes, only 4% of those streams had any stalls.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-28-at-12.30.30-am.png)
 
@@ -37,7 +37,17 @@ The authors implemented the existing approaches in their live TV streaming websi
 
 ###  Fugu
 
-To solve 
+We describe Fugu, a data-driven ABR algorithm that combines several techniques. Fugu is based on MPC \(model predictive control\), a classical control policy, but replaces its throughput predictor with a deep neural network trained using supervised learning on data recorded in situ \(in place\), meaning from Fugu’s actual deployment environment, Puffer. The predictor's input include the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty. 
+
+### Conclusion
+
+> We conclude that robustly beating “simple” algorithms with machine learning may be surprisingly difficult, notwithstanding promising results in contained environments such as simulators and emulators
+>
+> it is difficult to characterize the systematic uncertainty that comes from selecting a set of traces that may omit the variability or heavy tailed nature of a real deployment experience \(both network behaviors as well as user behaviors, such as watch duration\).
+
+
+
+
 
 
 
