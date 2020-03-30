@@ -43,7 +43,7 @@
   * Proposed a solution to mitigate stragglers: adding b extra workers, but as soon as the parameter servers receive gradients from any N workers, they stop waiting and update their parameters using the N gradients.
 * [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf) - Narayanan et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/pipedream-generalized-pipeline-parallelism-for-dnn-training)\]
 * \*\*\*\*[A Generic Communication Scheduler for Distributed DNN Training Acceleration](https://dl.acm.org/authorize?N695016) - Peng et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
-
+* 
 ### Prediction Serving Systems
 
 * [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf) - Crankshaw et al., NSDI' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
