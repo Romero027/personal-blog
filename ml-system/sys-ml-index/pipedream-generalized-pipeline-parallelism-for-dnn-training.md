@@ -18,11 +18,11 @@ The most common way to train DNN models is intra-batch parallelization: data par
 
 ### Pipeline Parallelism\(PP\)
 
-This paper introduces PipeDream with pipeline parallelism, a new parallelization strategy that combines intra-batch parallelism with inter-batch parallelism. Pipeline-parallel computation involves partitioning the layers of a DNN model into multiple stages, where each stage consists of a consecutive set of layers in the model. Each stage is mapped to a separate GPU that performs the forward pass \(and backward pass\) for all layers in that stage.
+This paper introduces PipeDream with **pipeline parallelism, a new parallelization strategy that combines intra-batch parallelism with inter-batch parallelism.** Pipeline-parallel computation involves partitioning the layers of a DNN model into multiple stages, where each stage consists of a consecutive set of layers in the model. Each stage is mapped to a separate GPU that performs the forward pass \(and backward pass\) for all layers in that stage.
 
 ![](../../.gitbook/assets/screen-shot-2020-02-05-at-12.49.31-am.png)
 
-As the name hinted, on completing its forward or backward pass for a minibatch, each stage asynchronously sends the output activations or gradients to the next stage, while simultaneously starting to process another minibatch. Since it only has to communicate subsets of the gradient and output activations, PP often can communicate far less than data parallelism. More importantly, PP solves the under-utilization problem by overlapping communication with computation of subsequent minibatches. 
+As the name hinted, on completing its forward or backward pass for a minibatch, each stage asynchronously sends the output activations or gradients to the next stage, while simultaneously starting to process another minibatch. Since it only has to communicate subsets of the gradient and output activations, PP often can **communicate far less** than data parallelism. More importantly, PP solves the under-utilization problem by **overlapping communication with computation of subsequent minibatches**. 
 
 However, naive pipelining introduces three challenges: work partitioning, work scheduling and effective learning. 
 

@@ -39,17 +39,28 @@
 * [Adaptive Communication Strategies in Local-Update SGD](https://arxiv.org/pdf/1810.08313.pdf) **-** Wang et al., SysML' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#adaptive-communication-strategies-in-local-update-sgd-wang-et-al-2018)\]
   * Proposed an adaptive algorithm for choosing $$\tau$$ in asynchronous training.\(Change $$\tau $$ as algorithm converges\)
 * [Gradient Coding: Avoiding Stragglers in Distributed Learning](http://proceedings.mlr.press/v70/tandon17a.html)  **-** Tandon et al., ICML' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#gradient-coding-avoiding-stragglers-in-distributed-learning-tandon-et-al-2017)\]
+  * Coded Computation
 * [Revisiting Distributed Synchronous SGD](https://arxiv.org/pdf/1604.00981.pdf) - Chen et al., 2017 
   * Proposed a solution to mitigate stragglers: adding b extra workers, but as soon as the parameter servers receive gradients from any N workers, they stop waiting and update their parameters using the N gradients.
 * [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf) - Narayanan et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/pipedream-generalized-pipeline-parallelism-for-dnn-training)\]
+  * Proposed Pipeline-parallel training that combines data and model parallelism with pipelining. 
 * \*\*\*\*[A Generic Communication Scheduler for Distributed DNN Training Acceleration](https://dl.acm.org/authorize?N695016) - Peng et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
-* 
+  * Key insight: Communication of former layers of a neural network has higher priority and can preempt communication of latter layers.
+
+### Deep Learning Scheduler
+
+* [Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters](https://i.cs.hku.hk/~cwu/papers/yhpeng-eurosys18.pdf) - Peng et al., EuroSys' 18
+* [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/xiao) - Xiao et al., OSDI' 18 \[Summary\]
+* [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf) - Gu et al., NSDI' 19 \[Summary\]
+* [Themis: Fair and Efficient GPU Cluster Scheduling](https://www.usenix.org/conference/nsdi20/presentation/mahajan) - Mahajan et al., NSDI' 20 \[Summary\]
+
 ### Prediction Serving Systems
 
 * [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf) - Crankshaw et al., NSDI' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
   * Discussed the challenge of prediction serving systems and presented their general-purpose low-latency prediction serving system.
 * [Pretzel: Opening the Black Box of Machine Learning Prediction Serving Systems](https://www.usenix.org/system/files/osdi18-lee.pdf) - Lee et al., OSDI' 18
 * [Parity Models: Erasure-Coded Resilience for Prediction Serving Systems](http://delivery.acm.org/10.1145/3360000/3359654/p30-kosaian.pdf?ip=35.3.50.157&id=3359654&acc=OPENTOC&key=93447E3B54F7D979%2E0A17827594E6F2C8%2E4D4702B0C3E38B35%2EC42B82B87617960C&__acm__=1572846710_212460fc2118b4ddbb56646253af114b) - Kosaian et al, SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
+  * Learning based approach to achieve erasure coded resilience for Neural Networks.
 * [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://dl.acm.org/doi/10.1145/3341301.3359658) - Shen et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
 
 ### Machine Learning Systems in industry
