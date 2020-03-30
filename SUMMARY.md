@@ -89,6 +89,8 @@
 ## Systems for ML <a id="ml-system"></a>
 
 * [Index](ml-system/sys-ml-index/README.md)
+  * [Tiresias: A GPU Cluster Managerfor Distributed Deep Learning](ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning.md)
+  * [Gandiva: Introspective Cluster Scheduling for Deep Learning](ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](ml-system/sys-ml-index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
   * [Chameleon: Scalable Adaptation of Video Analytics](ml-system/sys-ml-index/chameleon-scalable-adaptation-of-video-analytics.md)
   * [NoScope: Optimizing Neural Network Queriesover Video at Scale](ml-system/sys-ml-index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
