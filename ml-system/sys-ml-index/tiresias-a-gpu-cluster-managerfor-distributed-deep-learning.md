@@ -28,7 +28,7 @@ The main objectives of Tiresias are 1\) minimizing the average job completion ti
 
 To address the aforementioned challenges, Tiresias uses an aged based scheduler called **Two-dimensional Attained Service-Based Scheduler**\(2DAS\). 2DAS assigns each job a priority based on its **attained service**. The attained service of a job is calculated based on the number of GPUs it uses and the amount of time it has been running so far. 
 
-When no jobs duration information is provided, the priority function applies the Least-Attained-Service\(LAS\) algorithm where a job's priority is inverse to its attained service. If the distribution of job duration is provided, then a job's priority equals its Gittins index value. 
+When no job duration information is provided, the priority function applies the Least-Attained-Service\(LAS\) algorithm where a job's priority is inverse to its attained service. If the distribution of job duration is provided, then a job's priority equals its Gittins index value. 
 
 Using continuous priorities can lead to a sequence of preemptions\(preemption is both time-consuming and expensive in GPUs\) and subsequent resumptions for all jobs. Tiresias address this challenge by using the classic **Multi-Level Feedback Queue algorithm**. 
 

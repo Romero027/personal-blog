@@ -18,17 +18,17 @@ The performance of a multi-GPU DLT job depends on the affinity of the allocated 
 
 #### Interference
 
-When running in a shared execution environment\(e.g., PCIe switch\), DLT jobs might interfere with each other due to resource contention, and, again, different jobs have different degree of interferences. For example, when two language model\(LM\) jobs run together, both jobs suffer 19% slowdown. However, ResNet-50 does not suffer from GPU co-location with LM.
+When running in a shared execution environment\(e.g., PCIe switch\), DLT jobs might interfere with each other due to resource contention, and, again, different jobs have different degrees of interferences. For example, when two language model\(LM\) jobs run together, both jobs suffer 19% slowdown. However, ResNet-50 does not suffer from GPU co-location with LM.
 
 #### Intra-job predictability
 
-A DLT jobs consists of numerous mini-batch iterations. Thus, the GPU memory used clearly follows a cyclic pattern, where each cycle corresponds to the processing of a single mini-batch. The maximum GPU memory used can be an order of magnitude larger than the minimum memory used. 
+A DLT job consists of numerous mini-batch iterations. Thus, the GPU memory used clearly follows a cyclic pattern, where each cycle corresponds to the processing of a single mini-batch. The maximum GPU memory used can be an order of magnitude larger than the minimum memory used. 
 
 ### Gandiva
 
-To address the aforementioned problems, this paper proposes Gandiva, a cluster scheduling framework that utilizes DL-specific characteristics to improve latency and efficiency in a GPU cluster. Gandiva removes the exclusivity and fixed assignment of GPUs in the following ways:
+To address the aforementioned problems, the authors proposes Gandiva, a cluster scheduling framework that utilizes DL-specific characteristics to improve latency and efficiency in a GPU cluster. Gandiva removes the exclusivity and fixed assignment of GPUs in the following ways:
 
-* **Time-Slicing**: DLT jobs are split into 60s subtasks and Gandiva allows incoming jobs to time-share GPUs with existing jobs. Leveraging the cyclic pattern of DLT jobs, when a suspend is issued, Gandiva waits until the minimum of the memory usage cycle. In the evaluation, the authors show that this suspend-and-resume can be accomplished under O\(100ms\). **Packing**, used only during overload, is another mechanism than allows multiple DTL jobs run on the same GPU simultaneously and let the GPU time-share the jobs. Packing is efficient only when the packed jobs do not exceed the GPU resources and do not negatively interfere with each other.  
+* **Time-Slicing**: DLT jobs are split into 60s subtasks and Gandiva allows incoming jobs to time-share GPUs with existing jobs. Leveraging the cyclic pattern of DLT jobs, when a suspend is issued, Gandiva waits until the minimum of the memory usage cycle. In the evaluation, the authors show that this suspend-and-resume can be accomplished under O\(100ms\). **Packing**, used only during overload, is another mechanism than allows multiple DTL jobs to run on the same GPU simultaneously and let the GPU time-share the jobs. Packing is efficient only when the packed jobs do not exceed the GPU resources and do not negatively interfere with each other.  
 
 ![](../../.gitbook/assets/screen-shot-2020-03-30-at-8.15.35-pm.png)
 
