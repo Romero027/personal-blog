@@ -130,7 +130,6 @@
 ## Misc. <a id="misc"></a>
 
 * [Index](misc/index/README.md)
-  * [Scheduling](misc/index/scheduling.md)
   * [Rate Limiting](misc/index/rate-limiting.md)
   * [Load Balancing](misc/index/load-balancing.md)
   * [Consistency Models in Distributed System](misc/index/consistency-models-in-distributed-system.md)
