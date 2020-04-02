@@ -129,13 +129,15 @@
 
 ## Misc. <a id="misc"></a>
 
-* [Python Global Interpreter Lock](misc/python-global-interpreter-lock.md)
-* [The Actor Model](misc/actor-model.md)
-* [Rate Limiting](misc/rate-limiting.md)
-* [Load Balancing](misc/load-balancing.md)
-* [Consistency Models in Distributed System](misc/consistency-models-in-distributed-system.md)
-* [Managing Complexity](misc/complexity.md)
-* [System Design](misc/system-design.md)
-* [Deep Dive into the Spark Scheduler](misc/deep-dive-into-the-spark-scheduler.md)
-* [About Research and PhD](misc/about-research-and-phd.md)
+* [Index](misc/index/README.md)
+  * [Scheduling](misc/index/scheduling.md)
+  * [Rate Limiting](misc/index/rate-limiting.md)
+  * [Load Balancing](misc/index/load-balancing.md)
+  * [Consistency Models in Distributed System](misc/index/consistency-models-in-distributed-system.md)
+  * [Managing Complexity](misc/index/complexity.md)
+  * [System Design](misc/index/system-design.md)
+  * [Deep Dive into the Spark Scheduler](misc/index/deep-dive-into-the-spark-scheduler.md)
+  * [The Actor Model](misc/index/actor-model.md)
+  * [About Research and PhD](misc/index/about-research-and-phd.md)
+  * [Python Global Interpreter Lock](misc/index/python-global-interpreter-lock.md)
 

@@ -1,6 +1,6 @@
 # Consistency Models in Distributed System
 
-![](../.gitbook/assets/img_0526.jpg)
+![](../../.gitbook/assets/img_0526.jpg)
 
 ### Linearizability
 

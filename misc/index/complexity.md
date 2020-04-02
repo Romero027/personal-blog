@@ -43,7 +43,7 @@ Rather than creating a definitive description for complexity, we can look for _s
 
 A primary source of complexity is just the list of requirements for a system. Although each requirement seems small, the accumulation of many requirements adds not only their individual complexities but also complexities from their interactions. The underlying cause of this scenario is that the personal computer has been designed to meet many requirements: a well-organized file system, expandability of storage, ability to attach a variety of I/O devices, connection to a network, protection from malevolent persons and so on. Each of these requirements adds complexity of its own, and the interactions among them add still more complexity.
 
-![](../.gitbook/assets/screen-shot-2019-10-31-at-11.51.46-pm.png)
+![](../../.gitbook/assets/screen-shot-2019-10-31-at-11.51.46-pm.png)
 
 Meeting many requirements with a single design is sometimes expressed as a need for generality. Generality may be loosely defined as “applying to a variety of circumstances.” Unfortunately, generality contributes to complexity, so it comes with a trade-off, and the designer must use good judgment to decide how much of the generality is actually wanted.
 
@@ -59,7 +59,7 @@ The crux of the problem is that as systems age, they tend to accumulate changes 
 
 One requirement by itself is frequently a specific source of complexity. It starts with a desire for high performance or high efficiency. Whenever a scarce resource is involved, an effort arises to keep its utilization high.
 
-![](../.gitbook/assets/screen-shot-2019-10-31-at-11.51.38-pm.png)
+![](../../.gitbook/assets/screen-shot-2019-10-31-at-11.51.38-pm.png)
 
 
 
@@ -91,7 +91,7 @@ On the other hand, we consider "Leaky Abstractions" to be bad, because they usua
 
 Systems that are designed using good abstractions tend to minimize the number of interconnections among their component modules. One powerful way to reduce module interconnections is to employ a particular method of module organization known as _layering_. 
 
-![](../.gitbook/assets/screen-shot-2019-11-01-at-12.00.52-am.png)
+![](../../.gitbook/assets/screen-shot-2019-11-01-at-12.00.52-am.png)
 
 As a general rule, a module of a given layer interacts only with its peers in the same layer and with the modules of the next higher and next lower layers. The **TCP**/**IP** model gives us a good example that follows this principle.
 

@@ -99,7 +99,7 @@ Checking sendMsg Withdraw(50)
 Checking sendMsg Withdraw(50)
 ```
 
-![](../.gitbook/assets/screen-shot-2019-10-12-at-9.39.51-pm.png)
+![](../../.gitbook/assets/screen-shot-2019-10-12-at-9.39.51-pm.png)
 
 Two requests are stored in the mailbox, and the rule of only processing one message at a time will make sure that only one request goes through and the other person will receive a "false" message. Modifying the internal state of the checking actor is only possible via messages, which are processed one at a time eliminating races when trying to keep invariants. Even better, the senders are not blocked as they do when using locks - Millions of actors can be efficiently scheduled on a dozen of threads reaching the full potential of modern CPUs
 
@@ -115,11 +115,11 @@ Two requests are stored in the mailbox, and the rule of only processing one mess
 
 Address identifies an actor. However, it may also represent a proxy/forwarder to an actor\(e.g. a load balancer\). The addresses contain location\(e.g. IP addresses\) and transportation information\(e.g. TCP/UDP\). They give us the notion of location transparency. As a programmer, we don't need to care about where the actor lives, as long as we can send message to it. In other words, we can have actors in the same process, or different machines, but how you communicate are completely the same across all of them.
 
-![One address may represent many actors\(pool\)](../.gitbook/assets/screen-shot-2019-10-13-at-1.06.31-am.png)
+![One address may represent many actors\(pool\)](../../.gitbook/assets/screen-shot-2019-10-13-at-1.06.31-am.png)
 
 
 
-![One actor may have many addresses\(A, B, C uses different addresses\)](../.gitbook/assets/screen-shot-2019-10-13-at-1.06.40-am.png)
+![One actor may have many addresses\(A, B, C uses different addresses\)](../../.gitbook/assets/screen-shot-2019-10-13-at-1.06.40-am.png)
 
 ### Handling failure
 
@@ -137,7 +137,7 @@ But, who supervise the supervisor? In the actor model, there will be a supervisi
 * Address do not change during restart
 * Mailboxes\(Queues\) are persistent outside the actor instance
 
-![Addresses &quot;encapsulate&quot; the mailbox and the actor](../.gitbook/assets/screen-shot-2019-10-13-at-1.23.10-am.png)
+![Addresses &quot;encapsulate&quot; the mailbox and the actor](../../.gitbook/assets/screen-shot-2019-10-13-at-1.23.10-am.png)
 
 
 

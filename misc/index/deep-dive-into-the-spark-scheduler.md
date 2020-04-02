@@ -4,13 +4,13 @@
 
 ### Overview:
 
-![Scheduling Process\(Credit: Xingbo Jiang\)](../.gitbook/assets/screen-shot-2019-12-27-at-3.36.41-pm.png)
+![Scheduling Process\(Credit: Xingbo Jiang\)](../../.gitbook/assets/screen-shot-2019-12-27-at-3.36.41-pm.png)
 
 ### RDD Objects:
 
 In this phase, RDDs will be translated into stages. For example: 
 
-![Credit: Xingbo Jiang](../.gitbook/assets/screen-shot-2019-12-27-at-3.39.35-pm.png)
+![Credit: Xingbo Jiang](../../.gitbook/assets/screen-shot-2019-12-27-at-3.39.35-pm.png)
 
 ### DAGScheduler:
 
@@ -47,7 +47,7 @@ In this phase, RDDs will be translated into stages. For example:
     * Rack Locality\(Same Rack\)
 * SchedulingBackend is responsible for resource management 
 
-![Illustration of Delay Scheduling\(Credit:Xingbo Jiang\)](../.gitbook/assets/screen-shot-2019-12-27-at-3.54.15-pm.png)
+![Illustration of Delay Scheduling\(Credit:Xingbo Jiang\)](../../.gitbook/assets/screen-shot-2019-12-27-at-3.54.15-pm.png)
 
 ```text
 // Delay Scheduling in Psedo-code
