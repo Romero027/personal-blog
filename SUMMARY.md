@@ -112,7 +112,7 @@
 
 * [Index](ml-for-systems/ml-sys-index/README.md)
   * [Learning in situ: a randomized experiment in video streaming](ml-for-systems/ml-sys-index/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
-  * [Neural Adaptive Content-aware Internet Video Delivery](ml-for-systems/ml-sys-index/neural-adaptive-content-aware-internet-video-delivery.md)
+  * [Short Summaries](ml-for-systems/ml-sys-index/short-summaries.md)
 
 ## Machine Learning
 
