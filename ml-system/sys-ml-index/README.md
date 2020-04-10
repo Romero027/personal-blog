@@ -50,9 +50,9 @@
 ### Deep Learning Scheduler
 
 * [Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters](https://i.cs.hku.hk/~cwu/papers/yhpeng-eurosys18.pdf) - Peng et al., EuroSys' 18
-* [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/xiao) - Xiao et al., OSDI' 18 \[Summary\]
-* [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf) - Gu et al., NSDI' 19 \[Summary\]
-* [Themis: Fair and Efficient GPU Cluster Scheduling](https://www.usenix.org/conference/nsdi20/presentation/mahajan) - Mahajan et al., NSDI' 20 \[Summary\]
+* [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/xiao) - Xiao et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning)\]
+* [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf) - Gu et al., NSDI' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning)\]
+* [Themis: Fair and Efficient GPU Cluster Scheduling](https://www.usenix.org/conference/nsdi20/presentation/mahajan) - Mahajan et al., NSDI' 20 
 
 ### Prediction Serving Systems
 

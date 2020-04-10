@@ -32,8 +32,8 @@ Keys for success in these settings:
 
 * [Neural Adaptive Video Streaming with Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf) - Mao et al., SIGCOMM' 17
 * [PCC Vivace: Online-Learning Congestion Control](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dong.pdf) - Dong et al., NSDI' 18
-* [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) - Yeo et al., OSDI' 18 \[Summary\]
-* [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan) - Yan et al., NSDI' 20 \[Summary\]
+* [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) - Yeo et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-for-systems/ml-sys-index/learning-in-situ-a-randomized-experiment-in-video-streaming)\]
+* [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan) - Yan et al., NSDI' 20 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-for-systems/ml-sys-index/neural-adaptive-content-aware-internet-video-delivery)\]
 
 ### System
 
