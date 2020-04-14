@@ -47,6 +47,7 @@
 ### Misc.
 
 * [ApproxHadoop: Bringing Approximations to MapReduce Frameworks](https://dl.acm.org/citation.cfm?id=2694351) - Goiri et al., ASPLOS' 15
+* [Yak: A High-Performance Big-Data-Friendly Garbage Collector](https://www.usenix.org/system/files/conference/osdi16/osdi16-nguyen.pdf) - Nguyen et al., OSDI' 16
 
 
 

@@ -14,6 +14,19 @@ The Motivation of this project is to provide a mechanism for fault-tolerance tha
 
 This paper discusses how Facebook route user traffic to its data centers. The main objectives are 1\) route users for effective utilization of data centers, 2\) route users for a fast experience and 3\) achieve high cache efficiency. The key ideas of Taji are: 1\) we can formulate traffic routing as an assignment problem that models the constraints and optimization goals set by a service and 2\) users in a shared community \(follow/friend/subscribe\) engage with similar content, so we can group them and route each group to the same data center.
 
+### [Yak: A High-Performance Big-Data-Friendly Garbage Collector](https://www.usenix.org/system/files/conference/osdi16/osdi16-nguyen.pdf) - Nguyen et al., OSDI' 16
+
+This paper is motivated by the problem of large garbage collection\(GC\) overhead in big data frameworks. \(GC can account for up to 50% of the execution time\). The key insight is that a typical data processing framework often has a clear logical distinction between a **control path** and a **data path**. These two paths follow different lifetime behaviors: data path shows epoch-based object lifetime patterns, whereas the much-smaller control space follows the classic [**generational lifetime behavior**](https://plumbr.io/handbook/garbage-collection-in-java/generational-hypothesis).\(i.e., generation hypothesis\)
+
+Based on this observation, Yak divides the managed heap into a control space\(CS\) and a data space\(DS\) and it requires the programmer to mark the beginning and end points of each epoch in the program. Objects created inside each epoch are allocated in the DS, while those created outside are allocated in the CS. Yak manages all data-space objects using epoch-based regions and deallocates each region as a whole at the end of an epoch. 
+
+Side Notes:
+
+* The **Control path** performs cluster management and scheduling, establishes communication channels between nodes, and interacts with users to parse queries and return results.
+* The **Data path** primarily consists of data manipulation functions that can be connected to form a data processing pipeline.\(e.g., data partition or built-in operations.\)
+
+
+
 
 
 
