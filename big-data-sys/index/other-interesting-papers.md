@@ -25,6 +25,14 @@ Side Notes:
 * The **Control path** performs cluster management and scheduling, establishes communication channels between nodes, and interacts with users to parse queries and return results.
 * The **Data path** primarily consists of data manipulation functions that can be connected to form a data processing pipeline.\(e.g., data partition or built-in operations.\)
 
+### [EC-Cache: Load-balanced, Low-latency Cluster Caching with Online Erasure Coding](https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf) - Rashmi et al., OSDI' 16
+
+The popularity of objects in cluster caches are heavily skewed, and, as a result, load imbalance is one of the key challenges toward improving the performance of cluster caches. The existing selective replication approach will incur at least 2x memory overhead. 
+
+As an alternative approach to selective replication, this paper proposes EC-cache, an erasure coding-based approach. EC-cache divides **individual objects** into k splits and creates r additional parity splits.\(Note that, traditionally, erasure coding is applied across objects\). Benefits: spreading the load of read requests across both data and parity splits result in better load balancing and 2\) reading/writing in parallel from multiple splits provides better I/O performance. The second technique of EC-cache is **late binding:** instead of reading exactly k splits, we can read more than k splits and wait for the reading of any k splits to complete.
+
+\*EC-cache offers advantages only for objects greater than 1MB. 
+
 
 
 
