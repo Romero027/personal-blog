@@ -35,6 +35,7 @@
 
 * [Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks](https://people.csail.mit.edu/matei/papers/2014/socc_tachyon.pdf) - Li et al., SoCC' 2014 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks)\]
 * [Flat Datacenter Storage](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf) - Nightingale et al., OSDI' 2012 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/flat-datacenter-storage)\]
+* [EC-Cache: Load-balanced, Low-latency Cluster Caching with Online Erasure Coding](https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf) - Rashmi et al., OSDI' 16
 
 ### Fault Tolerance 
 
