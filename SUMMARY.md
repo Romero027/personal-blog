@@ -47,7 +47,6 @@
 ## Fault Tolerance
 
 * [Index](fault-tolerance/index/README.md)
-  * [Untitled](fault-tolerance/index/untitled.md)
   * [Gray Failure: The Achilles’ Heel of Cloud-Scale Systems](fault-tolerance/index/gray-failure.md)
   * [Capturing and Enhancing In Situ System Observability for Failure Detection](fault-tolerance/index/capturing-and-enhancing-in-situ-system-observability-for-failure-detection.md)
   * [Check before You Change: Preventing Correlated Failures in Service Updates](fault-tolerance/index/check-before-you-change-preventing-correlated-failures-in-service-updates.md)
@@ -57,6 +56,7 @@
   * [Fixed It For You:Protocol Repair Using Lineage Graphs](fault-tolerance/index/fixed-it-for-you-protocol-repair-using-lineage-graphs.md)
   * [The Good, the Bad, and the Differences: Better Network Diagnostics with Differential Provenance](fault-tolerance/index/the-good-the-bad-and-the-differences-better-network-diagnostics-with-differential-provenance.md)
   * [Lineage-driven Fault Injection](fault-tolerance/index/lineage-driven-fault-injection.md)
+  * [Short Summaries](fault-tolerance/index/short-summaries.md)
 
 ## Big Data Systems <a id="big-data-sys"></a>
 
