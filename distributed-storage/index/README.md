@@ -13,6 +13,7 @@
 * Replicated Data Consistency Explained Through Baseball - Terry 2011 
 * [Session Guarantees for Weakly Consistent Replicated Data](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/SessionGuaranteesBayou.pdf) - Terry et al., 1994 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/session-guarantees-for-weakly-consistent-replicated-data)\]
 * [Flat Datacenter Storage](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf) - Nightingale et al., OSDI' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/flat-datacenter-storage)\]
-* [Small Cache, Big Effect: Provable Load Balancing for Randomly Partitioned Cluster Services](https://www.cs.cmu.edu/~fawnproj/papers/loadbal-socc2011.pdf) - Fan et al., SOCC' 11\[Summary\]
-* [DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching](https://dl.acm.org/doi/10.5555/3323298.3323313) - Liu et al., FAST' 19 \[Summary\]
+* [Small Cache, Big Effect: Provable Load Balancing for Randomly Partitioned Cluster Services](https://www.cs.cmu.edu/~fawnproj/papers/loadbal-socc2011.pdf) - Fan et al., SOCC' 11\[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/small-cache-big-effect-provable-load-balancing-forrandomly-partitioned-cluster-services)\]
+* [DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching](https://dl.acm.org/doi/10.5555/3323298.3323313) - Liu et al., FAST' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed-caching)\]
+* [AdaptSize: Orchestrating the Hot Object Memory Cache in a Content Delivery Network](https://www.cs.cmu.edu/~harchol/Papers/NSDI17.pdf) - Berger et al., NSDI' 17
 

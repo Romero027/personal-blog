@@ -33,6 +33,7 @@
   * [Flat Datacenter Storage](distributed-storage/index/flat-datacenter-storage.md)
   * [Small Cache, Big Effect: Provable Load Balancing forRandomly Partitioned Cluster Services](distributed-storage/index/small-cache-big-effect-provable-load-balancing-forrandomly-partitioned-cluster-services.md)
   * [DistCache: provable load balancing for large-scale storage systems with distributed caching](distributed-storage/index/distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed-caching.md)
+  * [Short Summaries](distributed-storage/index/short-summaries.md)
 
 ## Coordination
 

@@ -6,7 +6,7 @@ description: 'https://www.cs.cmu.edu/~fawnproj/papers/loadbal-socc2011.pdf'
 
 ### TL;DR
 
-This paper shows that system designers can ensure load balancing for an important class of service using a popularity-based small front-end cache. The key observation is that a skew in popularity harms load balance but simultaneously increases the effectiveness of caching.
+This paper shows that system designers can ensure load balancing for an important class of service using a popularity-based small front-end cache. The key observation is that **a skew in popularity harms load balance but simultaneously increases the effectiveness of caching**.
 
 ### Target Applications and motivation
 
