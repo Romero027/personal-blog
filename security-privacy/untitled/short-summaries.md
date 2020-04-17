@@ -8,7 +8,9 @@ Opaque is a distributed data analytics platform that utilizes Intel SGX hardware
 
 \*\(Memory-level\) Access pattern leakage is an attack in which a compromised OS is able to infer information about the encrypted data by monitoring an application's page access. \(such leakage can also occur at the network level.\). Oblivious means the computation does not leak any access patterns.
 
+### [Prio: Private, Robust, and Scalable Computation of Aggregate Statistics](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-corrigan-gibbs.pdf) - Corrigan-Gibbs et al., NSDI' 17
 
+### 
 
 
 
