@@ -127,6 +127,7 @@
 * [Index](security-privacy/untitled/README.md)
   * [Differential Privacy](security-privacy/untitled/differential-privacy.md)
   * [Honeycrisp: Large-Scale Differentially Private Aggregation Without a Trusted Core](security-privacy/untitled/honeycrisp-large-scale-differentially-private-aggregation-without-a-trusted-core.md)
+  * [Short Summaries](security-privacy/untitled/short-summaries.md)
 
 ## Misc. <a id="misc"></a>
 
