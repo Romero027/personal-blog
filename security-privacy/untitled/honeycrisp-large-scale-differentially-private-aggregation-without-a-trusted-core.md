@@ -34,7 +34,7 @@ Notes:
 
 * Honeycrisp segments its execution into discrete rounds, and it randomly appoints a new committee for each round.
 * Since Honeycrisp relies on an additively homomorphic cryptosystem for aggregating the collected records, not all queries can be supported.
-* The actual noise is added in the test phase: Once the encrypted sums have been decrypted inside the MPC,some noise must be added to the plain text values before they are compared to the analyst’s guess.
+* **The actual noise is added in the test phase**: Once the encrypted sums have been decrypted inside the MPC,some noise must be added to the plain text values before they are compared to the analyst’s guess.
 * In the test phase, if the difference between the guess and the noised result is larger than the threshold, the computation outputs the noised result, and otherwise a default value to indicate that the guess was approximately correct.
 
 As a result, the privacy cost in Honeycrisp depends on how often the data changes, and not on how often the query is asked\(by using SVT\). Thus, if the data is relatively stable\(as is likely in many cases, e.g., user typing habits do not change very often.\), Honeycrisp can answer periodic queries for many years, as long as the underlying data does not change too often.
