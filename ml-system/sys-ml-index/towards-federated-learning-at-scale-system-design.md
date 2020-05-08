@@ -13,13 +13,12 @@ Note: FL is a term coined by researchers from Google and research projects in Be
 The FL process is typically driven by a model engineer developing a model for a particular application. At a high level, a typical workflow is:
 
 * **Problem identification**: The model engineer identifies a problem to be solved with FL.
-* **Client instrumentation:** If needed, the clients \(e.g. an app running on mobile phones\) are instrumented to store locally \(with limits on time and quantity\) the necessary training data. In many cases, the app already will have stored this data \(e.g. a text messaging app must store text messages, a photo management app already stores photos\). However, in some cases additional data or metadata might need to be maintained, e.g. user interaction data to provide labels for a supervised learning task.
 * **Simulation prototyping \(optional\):** The model engineer may prototype model architectures and test
 
-  learning hyperparameters in an FL simulation using a proxy dataset.
+  hyperparameters in an FL simulation using a proxy dataset or in real setting. 
 
 * **Federated model training:** Multiple federated training tasks are started to train different variations of the model, or use different optimization hyperparameters.
-* **\(Federated\) model evaluation:** After the tasks have trained sufficiently \(typically a few days\), the models are analyzed and good candidates selected. Analysis may include metrics computed on standard datasets in the datacenter, or federated evaluation wherein the models are pushed to held-out clients for evaluation on local client data.
+* **\(Federated\) model evaluation:** After the tasks have trained sufficiently, the models need to be analyzed. This analysis may include metrics computed on standard datasets in the datacenter, or federated evaluation wherein the models are pushed to held-out clients for evaluation on local client data.
 * **Deployment:** Finally, once a good model is selected, it goes through a standard model launch process.
 
 ![https://arxiv.org/pdf/1912.04977.pdf](../../.gitbook/assets/screen-shot-2019-12-18-at-1.37.10-am.png)
