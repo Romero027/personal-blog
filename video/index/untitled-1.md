@@ -2,7 +2,7 @@
 
 ### Motivation
 
-Video jobs take a lot of CPU and long time to finish. In addition, existing video encoders do not permit fine-grained parallelism. Video compression relies on temporal correlations among nearby frames. Splitting the video across independent threads prevents exploiting correlations that cross the split, harming compression efficieny. 
+Video jobs take a lot of CPU and long time to finish. In addition, existing video encoders do not permit fine-grained parallelism. Video compression relies on temporal correlations among nearby frames. Splitting the video across independent threads prevents exploiting correlations that cross the split, harming compression efficiency. 
 
 ### Lambda
 
