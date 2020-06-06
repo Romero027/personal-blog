@@ -93,11 +93,6 @@
 * [Index](ml-system/sys-ml-index/README.md)
   * [Tiresias: A GPU Cluster Managerfor Distributed Deep Learning](ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
-  * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](ml-system/sys-ml-index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
-  * [Chameleon: Scalable Adaptation of Video Analytics](ml-system/sys-ml-index/chameleon-scalable-adaptation-of-video-analytics.md)
-  * [NoScope: Optimizing Neural Network Queriesover Video at Scale](ml-system/sys-ml-index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
-  * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](ml-system/sys-ml-index/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
-  * [Scaling Video Analytics on Constrained Edge Nodes](ml-system/sys-ml-index/untitled.md)
   * [Workshop papers](ml-system/sys-ml-index/workshop-papers.md)
   * [Hidden Technical Debt in Machine Learning Systems](ml-system/sys-ml-index/hidden-technical-debt-in-machine-learning-systems.md)
   * [Prediction Serving Systems](ml-system/sys-ml-index/prediction-serving.md)
@@ -122,6 +117,16 @@
   * [Deep Learning with Differential Privacy](machine-learning/untitled/dl-fl-with-differential-privacy.md)
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
+
+## Video
+
+* [Index](video/index/README.md)
+  * [Untitled](video/index/untitled-1.md)
+  * [Scaling Video Analytics on Constrained Edge Nodes](video/index/untitled.md)
+  * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](video/index/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
+  * [NoScope: Optimizing Neural Network Queriesover Video at Scale](video/index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
+  * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](video/index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
+  * [Chameleon: Scalable Adaptation of Video Analytics](video/index/chameleon-scalable-adaptation-of-video-analytics.md)
 
 ## Security/Privacy
 
