@@ -39,7 +39,7 @@ The key insight of ExCamera is that the work of video encoding can be divided in
 
 3. \(Serial\) Each thread “rebases” its chunk of the video onto the prior thread’s output, so that the chunks can be played in sequence by an unaltered VP8 decoder without requiring a key frame in between.
 
-ExCamera modifies the existing VP8 encoder and decoder in explicit state-passing style. 
+ExCamera modifies the existing VP8 encoder and decoder in explicit state-passing style. \(Section 4.1 for more details\)
 
 ####  
 
