@@ -2,7 +2,7 @@
 
 ### Motivation
 
-Video jobs take a lot of CPU and long time to finish. In addition, existing video encoders do not permit fine-grained parallelism. Video compression relies on temporal correlations among nearby frames. Splitting the video across independent threads prevents exploiting correlations that cross the split, harming compression efficiency. 
+Video jobs take a lot of CPU and a long time to finish. In addition, existing video encoders do not permit fine-grained parallelism. Video compression relies on temporal correlations among nearby frames. Splitting the video across independent threads prevents exploiting correlations that cross the split, harming compression efficiency. 
 
 ### Lambda
 
@@ -10,7 +10,7 @@ While cloud services like EC2 allow users to provision a cluster of powerful mac
 
 * Workers spawn quickly\(sub-second\)
 * Billing is in sub-second increments\(100ms in AWS lambda\)
-* A user can run many workers simultaneously\(up to thousand workers, but there is a limit\)
+* A user can run many workers simultaneously\(up to thousands workers, but there is a limit\)
 * Workers can run arbitrary executables
 
 ### ExCamera
@@ -39,7 +39,7 @@ The key insight of ExCamera is that the work of video encoding can be divided in
 
 3. \(Serial\) Each thread “rebases” its chunk of the video onto the prior thread’s output, so that the chunks can be played in sequence by an unaltered VP8 decoder without requiring a key frame in between.
 
-ExCamera modifies the existing VP8 encoder and decoder in explicit state-passing style. \(Section 4.1 for more details\)
+ExCamera modifies the existing VP8 encoder and decoder in an explicit state-passing style. \(Section 4.1 for more details\)
 
 ####  
 
