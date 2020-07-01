@@ -118,7 +118,7 @@
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
 
-## Video
+## Video Analytics <a id="video"></a>
 
 * [Index](video/index/README.md)
   * [Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport](video/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
