@@ -62,8 +62,7 @@
   * Extend the idea of [ExCamera](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-fouladi.pdf) - enable users to build more complex pipelines
   * novel straggler mitigation strategy 
 * \*\*\*\*[**Potluck: Cross-Application Approximate Deduplication for Computation-Intensive Mobile Applications**](https://www.cs.yale.edu/homes/guo-peizhen/files/potluck-asplos18.pdf) ****- Guo et al., ASPLOS' 18
-* \*\*\*\*[**ReXCam: Resource-Efficient, Cross-Camera Video Analytics at Scale**](https://arxiv.org/abs/1811.01268) **- Jain et al., arXiv' 18**
-  * \*\*\*\*
+* \*\*\*\*[**ReXCam: Resource-Efficient, Cross-Camera Video Analytics at Scale**](https://arxiv.org/abs/1811.01268) ****- Jain et al., arXiv' 18
 * [**DeepLens: Towards a Visual Data Management System**](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) - Krishnan et al., CIDR’ 19
   * Objective: Indexing and query optimization for VDMS\(For complex queries like join\)
   * Novel model for encoding, indexing and storing lineage
