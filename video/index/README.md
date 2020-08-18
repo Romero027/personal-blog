@@ -106,7 +106,8 @@
 
 #### Efficient image/video processing
 
-* 
+* \*\*\*\*[**End-to-end Learning of Action Detection from Frame Glimpses in Videos**](https://arxiv.org/pdf/1511.06984.pdf) ****- Yeung et al., CVPR' 16
+
 ### 
 
 

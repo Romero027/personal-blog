@@ -128,6 +128,7 @@
   * [NoScope: Optimizing Neural Network Queriesover Video at Scale](video/index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
   * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](video/index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
   * [Chameleon: Scalable Adaptation of Video Analytics](video/index/chameleon-scalable-adaptation-of-video-analytics.md)
+  * [End-to-end Learning of Action Detection from Frame Glimpses in Videos](video/index/end-to-end-learning-of-action-detection-from-frame-glimpses-in-videos.md)
 
 ## Security/Privacy
 
