@@ -107,10 +107,10 @@
 #### Efficient image/video processing
 
 * \*\*\*\*[**End-to-end Learning of Action Detection from Frame Glimpses in Videos**](https://arxiv.org/pdf/1511.06984.pdf) ****- Yeung et al., CVPR' 16
-* **Watching a Small Portion could be as Good as Watching All: Towards Efficient Video Classification - Fan et al., IJCAI’ 18**
-* **AdaFrame: Adaptive Frame Selection for Fast Video Recognition - Wu et al., CVPR’ 19**
-* **Multi-Agent Reinforcement Learning Based Frame Sampling for Effective Untrimmed Video Recognition - Wu et al., ICCV’ 19**
-* **Listen to Look: Action Recognition by Previewing Audio - Gao et al., CVPR’ 2020**
+* **Watching a Small Portion could be as Good as Watching All: Towards Efficient Video Classification** - Fan et al., IJCAI’ 18
+* **AdaFrame: Adaptive Frame Selection for Fast Video Recognition** - Wu et al., CVPR’ 19
+* **Multi-Agent Reinforcement Learning Based Frame Sampling for Effective Untrimmed Video Recognition** - Wu et al., ICCV’ 19
+* **Listen to Look: Action Recognition by Previewing Audio** - Gao et al., CVPR’ 2020
 
 ### 
 
