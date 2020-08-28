@@ -98,6 +98,7 @@
   * For each query, use them to train a query-specific proxy model
 * \*\*\*\*[**MIRIS: Fast Object Track Queries in Video** ](https://favyen.com/miris-sigmod.pdf)- Bastani et al., SIGMOD' 20
 * \*\*\*\*[**Server-Driven Video Streaming for Deep Learning Inference**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405887) ****- Du et al., SIGCOMM' 20
+  * Iterative video processing driven by server-side DNN
 * \*\*\*\*[**Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405874) - Li et al., SIGCOMM' 20
 
 \*\*\*\*
