@@ -96,6 +96,8 @@
   * Objective: Support \(approximate\) aggregate and limit queries over large video dataset
   * At ingest time, run object detection on small samples of frames and store them
   * For each query, use them to train a query-specific proxy model
+* \*\*\*\*[**Vantage: optimizing video upload for time-shifted viewing of social live streams**](https://dl.acm.org/doi/10.1145/3341302.3342064) ****- Ray et al., SIGCOMM' 19
+  * Retransmit low-quality frames during high bandwidth period to improve QoE for delayed viewers
 * \*\*\*\*[**MIRIS: Fast Object Track Queries in Video** ](https://favyen.com/miris-sigmod.pdf)- Bastani et al., SIGMOD' 20
 * \*\*\*\*[**Server-Driven Video Streaming for Deep Learning Inference**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405887) ****- Du et al., SIGCOMM' 20
   * Iterative video processing driven by server-side DNN
