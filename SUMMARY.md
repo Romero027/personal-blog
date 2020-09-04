@@ -88,7 +88,7 @@
   * [Multi-Resource Packing for Cluster Schedulers](big-data-sys/index/multi-resource-packing-for-cluster-schedulers.md)
   * [Other interesting papers](big-data-sys/index/other-interesting-papers.md)
 
-## Systems for ML <a id="ml-system"></a>
+## ML Systems <a id="ml-system"></a>
 
 * [Index](ml-system/sys-ml-index/README.md)
   * [Tiresias: A GPU Cluster Managerfor Distributed Deep Learning](ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning.md)
@@ -118,7 +118,7 @@
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
 
-## Video Analytics <a id="video"></a>
+## Video-Related <a id="video"></a>
 
 * [Index](video/index/README.md)
   * [Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport](video/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
@@ -129,6 +129,7 @@
   * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](video/index/live-video-analytics-at-scale-with-approximation-and-delay-tolerance.md)
   * [Chameleon: Scalable Adaptation of Video Analytics](video/index/chameleon-scalable-adaptation-of-video-analytics.md)
   * [End-to-end Learning of Action Detection from Frame Glimpses in Videos](video/index/end-to-end-learning-of-action-detection-from-frame-glimpses-in-videos.md)
+  * [Short Summaries](video/index/short-summaries.md)
 
 ## Security/Privacy
 
