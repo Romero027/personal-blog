@@ -24,14 +24,14 @@
 ### Distributed Machine Learning
 
 * [Large Scale Distributed Deep Networks](https://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks) - Dean et al., NIPS' 12
-  * Introduced the idea of Model Parallelism and Data Parallelism, as well as Google's first generation Deep Network platform, DistBelief. The ideas are "old", but it is a must read if you are interested in distributed Deep Network platforms. 
+  * Introduced the idea of Model Parallelism and Data Parallelism, as well as Google's first-generation Deep Network platform, DistBelief. The ideas are "old", but it is a must-read if you are interested in distributed Deep Network platforms. 
 * [TensorFlow: A System for Large-Scale Machine Learning](http://download.tensorflow.org/paper/whitepaper2015.pdf) - Abadi et al., OSDI' 16
   * The core idea behind TensorFlow is the dataflow\(with mutable state\) representation of the Deep Networks, which they claim to subsume existing work on parameter servers, and offers a uniform programming model that allows users to harness large-scale heterogeneous systems, both for production tasks and for experimenting with new approaches.
 * [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf) - Moritz et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/ray-a-distributed-framework-for-emerging-ai-applications)\] 
 * [Scaling Distributed Machine Learning with the Parameter Server](http://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf) - Li et al., OSDI' 14 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/parameter-servers)\]
   * Described the architecture and protocol of parameter server
 * [More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](http://www.cs.cmu.edu/~seunghak/SSPTable_NIPS2013.pdf) - Ho et al., NIPS' 13 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/parameter-servers)\]
-  * Discussed the Stale Synchronous Parallel\(SSP\) and an implementation of SSP parameter server
+  * Discussed the Stale Synchronous Parallel\(SSP\) and implementation of SSP parameter server
 * [Project Adam: Building an Efficient and Scalable Deep Learning Training System](https://www.usenix.org/node/186213) - Chilimbi et al., OSDI' 14
   * Described the design and implementation of a distributed system called Adam comprised of commodity server machines to train deep neural networks.
 * [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf) - Hsieh et al., NSDI' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/parameter-servers)\]
@@ -60,7 +60,7 @@
   * Discussed the challenge of prediction serving systems and presented their general-purpose low-latency prediction serving system.
 * [Pretzel: Opening the Black Box of Machine Learning Prediction Serving Systems](https://www.usenix.org/system/files/osdi18-lee.pdf) - Lee et al., OSDI' 18
 * [Parity Models: Erasure-Coded Resilience for Prediction Serving Systems](http://delivery.acm.org/10.1145/3360000/3359654/p30-kosaian.pdf?ip=35.3.50.157&id=3359654&acc=OPENTOC&key=93447E3B54F7D979%2E0A17827594E6F2C8%2E4D4702B0C3E38B35%2EC42B82B87617960C&__acm__=1572846710_212460fc2118b4ddbb56646253af114b) - Kosaian et al, SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
-  * Learning based approach to achieve erasure coded resilience for Neural Networks.
+  * A Learning-based approach to achieve erasure-coded resilience for Neural Networks.
 * [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://dl.acm.org/doi/10.1145/3341301.3359658) - Shen et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
 
 ### Machine Learning Systems in industry
@@ -89,7 +89,7 @@
 * [DeepXplore: Automated Whitebox Testing of Deep Learning Systems](http://www.cs.columbia.edu/~junfeng/papers/deepxplore-sosp17.pdf) - Pei et al., SOSP' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/deepxplore-automated-whitebox-testingof-deep-learning-systems)\]
 * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/conference/atc19/presentation/jeon) - Jeon et al., ATC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/misc-1#analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads)\]
 * [A unifying view on dataset shift in classification](https://rtg.cis.upenn.edu/cis700-2019/papers/dataset-shift/dataset-shift-terminology.pdf) - Moreno-Torres et al., 2010 
-  * Explained various types of data shift\(i.e. covariate shift, . prior probability shift and Concept Shift\) 
+  * Explained various types of data shift\(i.e. covariate shift,  prior probability shift and Concept Shift\) 
 
 \*denotes papers that I plan to read
 

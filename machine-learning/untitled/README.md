@@ -15,5 +15,5 @@
 * [Deep Learning with Differential Privacy](https://arxiv.org/pdf/1607.00133.pdf) - Abadi et al., CCS' 16 \[[Summary](https://xzhu0027.gitbook.io/blog/machine-learning/dl-fl-with-differential-privacy)\]
   * Discussed how to train deep neural networks with non-convex objectives, under a modest privacy budget
 * [Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning](https://arxiv.org/abs/1702.07464)\* - Hitaj et al., CCS' 17
-  * Proposed and implement an active inference attacks on deep neural networks in a collaborative setting\(which stresses the importance of using secure aggregation and differential privacy.\)
+  * Proposed and implement an active inference attack on deep neural networks in a collaborative setting\(which stresses the importance of using secure aggregation and differential privacy.\)
 
