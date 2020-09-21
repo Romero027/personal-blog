@@ -88,7 +88,7 @@
   * [Multi-Resource Packing for Cluster Schedulers](big-data-sys/index/multi-resource-packing-for-cluster-schedulers.md)
   * [Other interesting papers](big-data-sys/index/other-interesting-papers.md)
 
-## ML Systems <a id="ml-system"></a>
+## Systems for ML <a id="ml-system"></a>
 
 * [Index](ml-system/sys-ml-index/README.md)
   * [Tiresias: A GPU Cluster Managerfor Distributed Deep Learning](ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning.md)
