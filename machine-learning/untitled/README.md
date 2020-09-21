@@ -10,6 +10,17 @@
 * [Accelerating Deep Learning by Focusing on the Biggest Losers](https://arxiv.org/abs/1910.00762) - Jiang et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/accelerating-deep-learning-by-focusing-on-the-biggest-losers)\]
   * Proposes an algorithm that accelerates the training of deep neural networks \(DNNs\) by prioritizing examples with high loss at each iteration. 
 
+
+
+### Faster Inference
+
+* \*\*\*\*[**End-to-end Learning of Action Detection from Frame Glimpses in Videos**](https://arxiv.org/pdf/1511.06984.pdf) ****- Yeung et al., CVPR' 16
+* \*\*\*\*[**Watching a Small Portion could be as Good as Watching All: Towards Efficient Video Classification**](https://www.ijcai.org/Proceedings/2018/0098.pdf) ****- Fan et al., IJCAI’ 18
+* \*\*\*\*[**AdaFrame: Adaptive Frame Selection for Fast Video Recognition**](https://arxiv.org/abs/1811.12432) ****- Wu et al., CVPR’ 19
+* \*\*\*\*[**Multi-Agent Reinforcement Learning Based Frame Sampling for Effective Untrimmed Video Recognition**](https://arxiv.org/abs/1907.13369) ****- Wu et al., ICCV’ 19
+* \*\*\*\*[**Listen to Look: Action Recognition by Previewing Audio**](https://arxiv.org/abs/1912.04487) ****- Gao et al., CVPR’ 2020
+* \*\*\*\*[**FastBERT: a Self-distilling BERT with Adaptive Inference Time**](https://www.aclweb.org/anthology/2020.acl-main.537.pdf) - Liu et al., ACL' 2020
+
 ### Security/Privacy 
 
 * [Deep Learning with Differential Privacy](https://arxiv.org/pdf/1607.00133.pdf) - Abadi et al., CCS' 16 \[[Summary](https://xzhu0027.gitbook.io/blog/machine-learning/dl-fl-with-differential-privacy)\]
