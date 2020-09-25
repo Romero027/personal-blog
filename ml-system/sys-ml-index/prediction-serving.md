@@ -1,4 +1,4 @@
-# Prediction Serving Systems
+# Serving Systems
 
 ### Introduction
 

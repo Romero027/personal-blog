@@ -95,15 +95,15 @@
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Workshop papers](ml-system/sys-ml-index/workshop-papers.md)
   * [Hidden Technical Debt in Machine Learning Systems](ml-system/sys-ml-index/hidden-technical-debt-in-machine-learning-systems.md)
-  * [Prediction Serving Systems](ml-system/sys-ml-index/prediction-serving.md)
+  * [Serving Systems](ml-system/sys-ml-index/prediction-serving.md)
   * [Parameter Servers and AllReduce](ml-system/sys-ml-index/parameter-servers.md)
   * [Federated Learning at Scale - Part I](ml-system/sys-ml-index/towards-federated-learning-at-scale-system-design.md)
   * [Federated Learning at Scale - Part II](ml-system/sys-ml-index/federated-learning-at-scale-part-i.md)
   * [Learning From Non-IID data](ml-system/sys-ml-index/learning-from-non-iid-data.md)
   * [Ray: A Distributed Framework for Emerging AI Applications](ml-system/sys-ml-index/ray-a-distributed-framework-for-emerging-ai-applications.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](ml-system/sys-ml-index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
-  * [Distributed Machine Learning Misc.](ml-system/sys-ml-index/misc-1.md)
   * [DeepXplore: Automated Whitebox Testingof Deep Learning Systems](ml-system/sys-ml-index/deepxplore-automated-whitebox-testingof-deep-learning-systems.md)
+  * [Distributed Machine Learning Misc.](ml-system/sys-ml-index/misc-1.md)
 
 ## ML for Systems
 
