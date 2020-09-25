@@ -8,7 +8,7 @@
 * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)\(Spark\) - Zaharia et al., NSDI' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing)\]
 * [Naiad: A Timely Dataflow System](http://sigops.org/s/conferences/sosp/2013/papers/p439-murray.pdf) - Murray et al., SOSP' 13 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/naiad-a-timely-dataflow-system)\]
 * [Discretized Streams: Fault-Tolerant Streaming Computation at Scale](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf) - Zaharia et al., SOSP' 13 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/discretized-streams-fault-tolerant-streaming-computation-at-scale)\]
-* [The Dataflow Model:A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale ](https://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf) - Akidau et al., VLDB' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/the-dataflow-model-a-practical-approach-to-balancing-correctness-latency-and-cost-in-massive-scale)\]
+* [The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale ](https://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf) - Akidau et al., VLDB' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/the-dataflow-model-a-practical-approach-to-balancing-correctness-latency-and-cost-in-massive-scale)\]
 
 ### [Resource Management ](https://xzhu0027.gitbook.io/blog/big-data-sys/resource-management)
 
@@ -42,15 +42,14 @@
 * [Improving MapReduce Performance in Heterogeneous Environments](http://courses.cs.vt.edu/cs5204/fall12-kafura/Papers/MapReduce/Map-Reduce-Hadoop.pdf) **-** Zaharia et al., OSDI' 08 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/improving-mapreduce-performance-in-heterogeneous-environments)\]
 * [Reining in the Outliers in Map-Reduce Clusters using Mantri ](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Ananthanarayanan.pdf)**-** Ananthanarayanan et al., OSDI' 10 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/reining-in-the-outliers-in-map-reduce-clusters-using-mantri)\]
 * [Effective Straggler Mitigation: Attack of the Clones ](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final231.pdf) **-** Ananthanarayanan et al., NSDI' 13 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/effective-straggler-mitigation-attack-of-the-clones)\]
-* [Interruptible Tasks:Treating Memory Pressure AsInterrupts for Highly Scalable Data-Parallel Program](https://people.cs.uchicago.edu/~shanlu/paper/sosp15-itask.pdf) - Fang et al., SOSP' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/interruptible-tasks-treating-memory-pressure-asinterrupts-for-highly-scalable-data-parallel-progra)\]
+* [Interruptible Tasks: Treating Memory Pressure AsInterrupts for Highly Scalable Data-Parallel Program](https://people.cs.uchicago.edu/~shanlu/paper/sosp15-itask.pdf) - Fang et al., SOSP' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/interruptible-tasks-treating-memory-pressure-asinterrupts-for-highly-scalable-data-parallel-progra)\]
 * [Lineage Stash: Fault Tolerance Off the Critical Path](https://dl.acm.org/authorize?N695036) - Wang et al., SOSP 19 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/other-interesting-papers#lineage-stash-fault-tolerance-off-the-critical-path-wang-et-al-sosp-19)\] 
 
 ### Misc.
 
 * [ApproxHadoop: Bringing Approximations to MapReduce Frameworks](https://dl.acm.org/citation.cfm?id=2694351) - Goiri et al., ASPLOS' 15
 * [Yak: A High-Performance Big-Data-Friendly Garbage Collector](https://www.usenix.org/system/files/conference/osdi16/osdi16-nguyen.pdf) - Nguyen et al., OSDI' 16
+* [Efficient memory disaggregation with infiniswap](javascript:void%280%29) - Gu et al., NSDI' 17 
 
 
-
-\*denotes systems that I plan to read
 

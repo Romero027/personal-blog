@@ -10,8 +10,6 @@
 * [Accelerating Deep Learning by Focusing on the Biggest Losers](https://arxiv.org/abs/1910.00762) - Jiang et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/accelerating-deep-learning-by-focusing-on-the-biggest-losers)\]
   * Proposes an algorithm that accelerates the training of deep neural networks \(DNNs\) by prioritizing examples with high loss at each iteration. 
 
-
-
 ### Faster Inference
 
 * \*\*\*\*[**End-to-end Learning of Action Detection from Frame Glimpses in Videos**](https://arxiv.org/pdf/1511.06984.pdf) ****- Yeung et al., CVPR' 16

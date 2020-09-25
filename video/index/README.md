@@ -24,10 +24,10 @@
   * Model cascade: difference detector\(MSE\) → cheap/specialized model → full model
 * [**Live Video Analytics at Scale with Approximation and Delay-Tolerance**](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf) - Zhang et al., NSDI’ 17
   * Objective: support efficient real-time analytics for multiple queries which have different quality and lag goals
-  * Offline Phase: use profiler to get a set of pareto-optimal configurations\(a combination of knobs\) from resource-quality space \(with a variant of greedy hill climbing\)
+  * Offline Phase: use profiler to get a set of pareto-optimal configurations\(a combination of knobs\) from resource-quality space \(with a variant of greedy hill-climbing\)
   * Online Phase: periodically change running queries’ configurations/placement/resource allocation to maximize total utility\(quality + lag goals\) 
 * [**Cachier: Edge-Caching for Recognition Applications**](https://ieeexplore.ieee.org/document/7979974) - Drolia et al., 2017
-  * Use edge server as a cache with compute resources\(smiliar to CDN\)
+  * Use edge server as a cache with compute resources\(similar to CDN\)
 * [**Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads**](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-fouladi.pdf) - Fouladi et al., NSDI’ 17
   * Leverage the emerging microservice frameworks\(e.g., AWS Lambda\) to provide low-latency video processing
   * Key insight: Video encoding can be divided into fast and slow parts, with the “slow” work\(searching for correlations between frames\) done in parallel across thousands of tiny threads, and only “fast” work done serially.
@@ -40,13 +40,13 @@
   * Processing more frames with shared DNN vs. greater per-frame accuracy with specialized DNN
 * [**Chameleon: Scalable Adaptation of Video Analytics**](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf) - Jiang et al., SIGCOMM’ 18
   * Resource-accuracy tradeoff is affected by some persistent characteristics, so we can reuse configurations over time → temporal correlation
-  * Video cameras with same characteristics share same best configurations → cross-camera correlations
+  * Video cameras with the same characteristics share the same best configurations → cross-camera correlations
   * Configuration knobs independently impact accuracy → reduce search space
   * Divide cameras into groups → periodically re-profile “leader” videos 
 * [**AWStream: Adaptive Wide-Area Streaming Analytics**](https://awstream.github.io/paper/awstream.pdf) - Zhang et al., SIGCOMM’ 18
   * Objective: low latency and high accuracy stream processing in WAN
   * Ask programmers to write degradation functions and profile those configurations
-  * Adaptively change configuration at runtime → react to congestions
+  * Adaptively change the configuration at runtime → react to congestions
 * [**Focus: Querying Large Video Datasets with Low Latency and Low Cost**](https://www.usenix.org/conference/osdi18/presentation/hsieh) - Hsieh et al., OSDI’ 18
   * Enable low-latency and low-cost querying over large historical video datasets.
   * At ingest time: classify objects using a cheap CNN, cluster similar objects\(KNN search\), and index each cluster using top-K most confident classification results.
@@ -65,7 +65,7 @@
 * \*\*\*\*[**ReXCam: Resource-Efficient, Cross-Camera Video Analytics at Scale**](https://arxiv.org/abs/1811.01268) ****- Jain et al., arXiv' 18
 * [**DeepLens: Towards a Visual Data Management System**](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) - Krishnan et al., CIDR’ 19
   * Objective: Indexing and query optimization for VDMS\(For complex queries like join\)
-  * Novel model for encoding, indexing and storing lineage
+  * A novel model for encoding, indexing and storing lineage
 * [**Networked Cameras Are the New Big Data Clusters**](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/hotedgevideo19camera.pdf) - Jiang et al., HotEdgeVideo’ 19
   * Proposes a new “camera cluster” abstraction
     * Saving computing resource
@@ -102,6 +102,8 @@
 * \*\*\*\*[**Server-Driven Video Streaming for Deep Learning Inference**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405887) ****- Du et al., SIGCOMM' 20
   * Iterative video processing driven by server-side DNN
 * \*\*\*\*[**Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405874) - Li et al., SIGCOMM' 20
+  * Dynamically adapts filtering decisions based on feature type, threshold, etc.
+* [Visor: Privacy-Preserving Video Analytics as a Cloud Service](https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Visor-Privacy-Preserving-Video-Analytics-as-a-Cloud-Service.pdf) - Poddar - et al., Security' 20
 
 \*\*\*\*
 
