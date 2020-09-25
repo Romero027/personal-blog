@@ -10,13 +10,13 @@ Opaque is a distributed data analytics platform that utilizes Intel SGX hardware
 
 ### [Prio: Private, Robust, and Scalable Computation of Aggregate Statistics](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-corrigan-gibbs.pdf) - Corrigan-Gibbs et al., NSDI' 17
 
-This paper talks about Prio, a privacy-preserving system for the collection of aggregate statistics. Prio uses a small number of servers to collect the data; as long as one of the Prio servers is honest, the system leaks nearly nothing about client's private data. Prio also maintains robustness in the presence of an unbounded number of malicious client. 
+This paper talks about Prio, a privacy-preserving system for the collection of aggregate statistics. Prio uses a small number of servers to collect the data; as long as one of the Prio servers is honest, the system leaks nearly nothing about client's private data. Prio also maintains robustness in the presence of an unbounded number of malicious clients. 
 
-Prio is built on a simple scheme, where each client splits its private value $$x_i$$ in to s shares, one per server, using a secret-sharing scheme. \(i.e., the sum of x shares = $$x_i$$\). For example, if there are 3 servers and $$x_i$$= 1, the client could generate \(10, -17, 8\) and send them to the corresponding server. As a result, as long as one server is honest, the client data remain private. To maintain robustness, Prio asks the clients to send to each server a "share" of proof of correctness, in which the servers can collectively verify the validity of the input. \(a variant of zero-knowledge proof?\)
+Prio is built on a simple scheme, where each client splits its private value $$x_i$$ into s shares, one per server, using a secret-sharing scheme. \(i.e., the sum of x shares = $$x_i$$\). For example, if there are 3 servers and $$x_i$$= 1, the client could generate \(10, -17, 8\) and send them to the corresponding server. As a result, as long as one server is honest, the client data remain private. To maintain robustness, Prio asks the clients to send to each server a "share" of proof of correctness, in which the servers can collectively verify the validity of the input. \(a variant of zero-knowledge proof?\)
 
-### 
+### [Shredder: Learning Noise Distributions to Protect Inference Privacy](https://dl.acm.org/doi/pdf/10.1145/3373376.3378522) - Mireshghallah et al., ASPLOS' 20
 
+![](../../.gitbook/assets/screen-shot-2020-09-25-at-5.59.50-pm.png)
 
-
-
+Similar to [Neurosurgeon](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf), Shredder also partitions the model for inference between edge and cloud. In addition, it proposes a technique that adds noise to the intermediate result to preserve privacy while maintaining good inference results. The key idea is to find noise distributions through a disjoint offline learning process with a loss function that strikes a balance between information loss and accuracy.  
 
