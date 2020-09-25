@@ -80,7 +80,7 @@
 * [Live Video Analytics at Scale with Approximation and Delay-Tolerance](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf) - Zhang et al., NSDI17' \[[Summary](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf)\]
 * [Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf) - Jiang et al., SIGCOMM' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/video-analytics/untitled/chameleon-scalable-adaptation-of-video-analytics)\]
 * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://www.usenix.org/system/files/osdi18-hsieh.pdf) - Hsieh et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/focus-querying-large-video-datasetswith-low-latency-and-low-cost)\]
-  * Presented Focus, a system provide low-cost and low-latency querying on large historical video datasets 
+  * Presented Focus, a system that provides low-cost and low-latency querying on large historical video datasets 
 * [Scaling Video Analytics on Constrained Edge Nodes](https://arxiv.org/abs/1905.13536) - Canel et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/untitled)\]
   * Introduced FilterForward, an edge-to-cloud system that identifies the video sequences that are relevant to datacenter applications and offloads only that data for further analysis. 
 
@@ -92,9 +92,9 @@
 * [DeepXplore: Automated Whitebox Testing of Deep Learning Systems](http://www.cs.columbia.edu/~junfeng/papers/deepxplore-sosp17.pdf) - Pei et al., SOSP' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/deepxplore-automated-whitebox-testingof-deep-learning-systems)\]
 * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/conference/atc19/presentation/jeon) - Jeon et al., ATC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/misc-1#analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads)\]
 * [A unifying view on dataset shift in classification](https://rtg.cis.upenn.edu/cis700-2019/papers/dataset-shift/dataset-shift-terminology.pdf) - Moreno-Torres et al., 2010 
-  * Explained various types of data shift\(i.e. covariate shift,  prior probability shift and Concept Shift\) 
+  * Explained various types of data shift\(i.e. covariate shift,  prior probability shift, and Concept Shift\) 
 
-\*denotes papers that I plan to read
+
 
 
 
