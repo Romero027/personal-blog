@@ -8,7 +8,7 @@ description: 'https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf'
 
 The most common way to train DNN models is intra-batch parallelization: data parallelism, model parallelism or hybrid intra-batch parallelism. However, they all suffer some disadvantages. 
 
-* Problem with data Parallelism: Communication overhead for many state-of-the-art models is high. Furthermore, the amount of data communicated is proportional to the number of model weights and the number of workers participating in training. 
+* Problem with Data Parallelism: Communication overhead for many state-of-the-art models is high. Furthermore, the amount of data communicated is proportional to the number of model weights and the number of workers participating in training. 
 
 ![Communication overhead increases with number of GPUs](../../.gitbook/assets/screen-shot-2020-02-05-at-12.18.40-am.png)
 
@@ -24,7 +24,7 @@ This paper introduces PipeDream with **pipeline parallelism, a new parallelizati
 
 As the name hinted, on completing its forward or backward pass for a minibatch, each stage asynchronously sends the output activations or gradients to the next stage, while simultaneously starting to process another minibatch. Since it only has to communicate subsets of the gradient and output activations, PP often can **communicate far less** than data parallelism. More importantly, PP solves the under-utilization problem by **overlapping communication with computation of subsequent minibatches**. 
 
-However, naive pipelining introduces three challenges: work partitioning, work scheduling and effective learning. 
+However, naive pipelining introduces three challenges: work partitioning, work scheduling, and effective learning. 
 
 #### Work Partitioning
 
