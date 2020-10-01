@@ -106,7 +106,7 @@
   * Iterative video processing driven by server-side DNN
 * \*\*\*\*[**Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405874) - Li et al., SIGCOMM' 20
   * Dynamically adapts filtering decisions based on feature type, threshold, etc.
-* [Visor: Privacy-Preserving Video Analytics as a Cloud Service](https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Visor-Privacy-Preserving-Video-Analytics-as-a-Cloud-Service.pdf) - Poddar - et al., Security' 20
+* \*\*\*\*[**Visor: Privacy-Preserving Video Analytics as a Cloud Service**](https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Visor-Privacy-Preserving-Video-Analytics-as-a-Cloud-Service.pdf) - Poddar - et al., Security' 20
 
 \*\*\*\*
 
