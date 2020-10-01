@@ -4,7 +4,7 @@ This part will primarily focus on a recent paper: "[Advances and Open Problems i
 
 ### Definition
 
-Although most of the research in the area of Federated Learning focused on mobile and edge device applications, interest in applying FL to other applications has greatly increased, including some which might involve only a small number of relatively reliable clients, for example several banks might want to collaboratively train an anomaly detection models for fraud detection. Thus, the authors term these two federated learning scheme "cross-device" and "cross-silo" respectively. Given these variations, the authors proposed a definition of FL:
+Although most of the research in the area of Federated Learning focused on mobile and edge device applications, interest in applying FL to other applications has greatly increased, including some which might involve only a small number of relatively reliable clients, for example, several banks might want to collaboratively train an anomaly detection models for fraud detection. Thus, the authors term these two federated learning schemes "cross-device" and "cross-silo" respectively. Given these variations, the authors proposed a definition of FL:
 
 > Federated learning is a machine learning setting where multiple entities \(clients\) collaborate in solving a machine learning problem, under the coordination of a central server or service provider. Each client’s raw data is stored locally and not exchanged or transferred; instead,  focused updates intended for immediate aggregation are used to achieve the learning objective.
 
@@ -22,7 +22,7 @@ Motivated by the prior work on differentially private deep learning algorithms, 
 
 #### Motivation
 
-Federated Learning is sometimes used to training language models which might later serve predictions on edge devices.\(e.g. Google's GBoard\). It already provides some notion of privacy in which the raw data itself never leaves the edge devices. However, researchers show that convolutional NNs can memorize arbitrary labelings of the training data  and recurrent language models are also capable of memorizing unique patterns in the training data.
+Federated Learning is sometimes used to training language models which might later serve predictions on edge devices.\(e.g. Google's GBoard\). It already provides some notion of privacy in which the raw data itself never leaves the edge devices. However, researchers show that convolutional NNs can memorize arbitrary labelings of the training data and recurrent language models are also capable of memorizing unique patterns in the training data.
 
 #### DP-FedAvg
 
