@@ -32,7 +32,7 @@
   * Leverage the emerging microservice frameworks\(e.g., AWS Lambda\) to provide low-latency video processing
   * Key insight: Video encoding can be divided into fast and slow parts, with the “slow” work\(searching for correlations between frames\) done in parallel across thousands of tiny threads, and only “fast” work done serially.
   * Exploits its codec's ability to save and restore its internal state
-* [Neurosurgeon: collaborative intelligence between the cloud and the mobile edge](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf) - Kang et al., ASPLOS' 17 \[[Morning Paper Summary](https://blog.acolyer.org/2017/05/25/neurosurgeon-collaborative-intelligence-between-the-cloud-and-the-mobile-edge/)\]
+* \*\*\*\*[**Neurosurgeon: collaborative intelligence between the cloud and the mobile edge**](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf) - Kang et al., ASPLOS' 17 \[[Morning Paper Summary](https://blog.acolyer.org/2017/05/25/neurosurgeon-collaborative-intelligence-between-the-cloud-and-the-mobile-edge/)\]
   * Observed that 1\) data transfer latency is often higher than mobile computation latency, especially on wireless networks. 2\) inside a model, data size is decreasing at the front-end whereas per-layer latency is higher at the back-end.
   * NOTE: 2\) isn't necessarily true for recent networks with global average pooling 
 * [**Scanner: Efficient Video Analysis at Scale**](https://arxiv.org/abs/1805.07339) - Poms et al., SIGGRAPH’ 18
@@ -107,6 +107,8 @@
 * \*\*\*\*[**Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405874) - Li et al., SIGCOMM' 20
   * Dynamically adapts filtering decisions based on feature type, threshold, etc.
 * \*\*\*\*[**Visor: Privacy-Preserving Video Analytics as a Cloud Service**](https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Visor-Privacy-Preserving-Video-Analytics-as-a-Cloud-Service.pdf) - Poddar - et al., Security' 20
+* [**Panorama: A Data System for Unbounded Vocabulary Querying over Video**](http://www.vldb.org/pvldb/vol13/p477-zhang.pdf) - Zhang et al., VLDB' 20
+  * A system that let users generalize to unbounded vocabularies without manual retraining
 
 \*\*\*\*
 
