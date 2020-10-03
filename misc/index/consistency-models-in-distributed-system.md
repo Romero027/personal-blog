@@ -18,7 +18,7 @@ Unlike linearizability, serializability does not—by itself—impose any real-t
 
 ### Strict Serializability
 
-Combining serializability and linearizability yields _strict serializability_: transaction behavior is equivalent to some serial execution, and the serial order corresponds to real time. For example, say I begin and commit transaction T1, which writes to item _x_, and you later begin and commit transaction T2, which reads from _x_. A database providing strict serializability for these transactions will place T1 before T2 in the serial ordering, and T2 will read T1’s write. A database providing serializability \(but not strict serializability\) could order T2 before T1.
+Combining serializability and linearizability yields _strict serializability_: transaction behavior is equivalent to some serial execution, and the serial order corresponds to real-time. For example, say I begin and commit transaction T1, which writes to item _x_, and you later begin and commit transaction T2, which reads from _x_. A database providing strict serializability for these transactions will place T1 before T2 in the serial ordering, and T2 will read T1’s write. A database providing serializability \(but not strict serializability\) could order T2 before T1.
 
 As [Herlihy and Wing](http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf) note, “linearizability can be viewed as a special case of strict serializability where transactions are restricted to consist of a single operation applied to a single object.”
 
@@ -42,11 +42,11 @@ Session guarantees are a set of guarantees implied by strong consistency, but do
 
 * **Read Your Writes**
 
-If a read R follows a write W in a session and R is performed at server S at time t, then W is included in the state of S at time T. In other words, each user’s reads should reflect the client’s prior writes. It means that, for example, once I successfully post a Tweet, I’ll be able to read it after a page refresh. The SSP parameter server is also an example which provides this kind of guarantee.
+If a read R follows a write W in a session and R is performed at server S at time t, then W is included in the state of S at time T. In other words, each user’s reads should reflect the client’s prior writes. It means that, for example, once I successfully post a Tweet, I’ll be able to read it after a page refresh. The SSP parameter server is also an example that provides this kind of guarantee.
 
 * **Monotonic Reads**
 
-The Monotonic Reads guarantee permits users to observe a database that is increasingly up-to-date over time. If a process performs read r1 ,then r2, r2 cannot observe a state prior to the writes which were reflected in r1. Intuitively, reads cannot go backwards.
+The Monotonic Reads guarantee permits users to observe a database that is increasingly up-to-date over time. If a process performs read r1 ,then r2, r2 cannot observe a state prior to the writes which were reflected in r1. Intuitively, reads cannot go backward.
 
 * **Monotonic Writes**
 
@@ -64,7 +64,7 @@ Nothing :\(
 
 #### Linearizability vs. Sequential consistency
 
-They both care about giving an illusion of a single copy, whereas linearizability cares about time and sequential consistency cares about program order. With sequential consistency, the system has freedom as to how to interleave operations coming from differently clients. With linearizability, the interleaving across all clients is determined based on time. The only way someone can distinguish between two is if they can observe all inputs and timing going into system.
+They both care about giving an illusion of a single copy, whereas linearizability cares about time and sequential consistency cares about program order. With sequential consistency, the system has freedom as to how to interleave operations coming from different clients. With linearizability, the interleaving across all clients is determined based on time. The only way someone can distinguish between two is if they can observe all inputs and timing going into system.
 
 ### Update:
 

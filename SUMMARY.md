@@ -148,6 +148,6 @@
   * [System Design](misc/index/system-design.md)
   * [Deep Dive into the Spark Scheduler](misc/index/deep-dive-into-the-spark-scheduler.md)
   * [The Actor Model](misc/index/actor-model.md)
-  * [About Research and PhD](misc/index/about-research-and-phd.md)
   * [Python Global Interpreter Lock](misc/index/python-global-interpreter-lock.md)
+  * [About Research and PhD](misc/index/about-research-and-phd.md)
 
