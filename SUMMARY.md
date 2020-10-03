@@ -15,25 +15,25 @@
   * [A Berkeley View of Systems Challenges for AI](seminal-theory/index/a-berkeley-view-of-systems-challenges-for-ai.md)
   * [Serverless Computing: One Step Forward, Two Steps Back](seminal-theory/index/serverless-computing-one-step-forward-two-steps-back.md)
 
-## Distributed Storage
+## Storage
 
-* [Index](distributed-storage/index/README.md)
-  * [Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks](distributed-storage/index/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks.md)
-  * [Exploiting Commutativity For Practical Fast Replication](distributed-storage/index/exploiting-commutativity-for-practical-fast-replication.md)
-  * [Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS](distributed-storage/index/dont-settle-for-eventual-scalable-causal-consistency-for-wide-area-storage-with-cops.md)
-  * [Building Consistent Transactions with Inconsistent Replication](distributed-storage/index/building-consistent-transactions-with-inconsistent-replication.md)
-  * [Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System](distributed-storage/index/managing-update-conflicts-in-bayou-a-weakly-connected-replicated-storage-system.md)
-  * [Spanner: Google's Globally-Distributed Database](distributed-storage/index/spanner-googles-globally-distributed-database.md)
-  * [Bigtable: A Distributed Storage System for Structured Data](distributed-storage/index/bigtable-a-distributed-storage-system-for-structured-data.md)
-  * [The Google File System](distributed-storage/index/the-google-file-system.md)
-  * [Dynamo: Amazon’s Highly Available Key-value Store](distributed-storage/index/dynamo-amazons-highly-available-key-value-store.md)
-  * [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](distributed-storage/index/chord-a-scalable-peer-to-peer-lookup-service-for-internet-applications.md)
-  * [Replicated Data Consistency Explained Through Baseball](distributed-storage/index/replicated-data-consistency-explained-through-baseball.md)
-  * [Session Guarantees for Weakly Consistent Replicated Data](distributed-storage/index/session-guarantees-for-weakly-consistent-replicated-data.md)
-  * [Flat Datacenter Storage](distributed-storage/index/flat-datacenter-storage.md)
-  * [Small Cache, Big Effect: Provable Load Balancing forRandomly Partitioned Cluster Services](distributed-storage/index/small-cache-big-effect-provable-load-balancing-forrandomly-partitioned-cluster-services.md)
-  * [DistCache: provable load balancing for large-scale storage systems with distributed caching](distributed-storage/index/distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed-caching.md)
-  * [Short Summaries](distributed-storage/index/short-summaries.md)
+* [Index](storage/index/README.md)
+  * [Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks](storage/index/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks.md)
+  * [Exploiting Commutativity For Practical Fast Replication](storage/index/exploiting-commutativity-for-practical-fast-replication.md)
+  * [Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS](storage/index/dont-settle-for-eventual-scalable-causal-consistency-for-wide-area-storage-with-cops.md)
+  * [Building Consistent Transactions with Inconsistent Replication](storage/index/building-consistent-transactions-with-inconsistent-replication.md)
+  * [Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System](storage/index/managing-update-conflicts-in-bayou-a-weakly-connected-replicated-storage-system.md)
+  * [Spanner: Google's Globally-Distributed Database](storage/index/spanner-googles-globally-distributed-database.md)
+  * [Bigtable: A Distributed Storage System for Structured Data](storage/index/bigtable-a-distributed-storage-system-for-structured-data.md)
+  * [The Google File System](storage/index/the-google-file-system.md)
+  * [Dynamo: Amazon’s Highly Available Key-value Store](storage/index/dynamo-amazons-highly-available-key-value-store.md)
+  * [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](storage/index/chord-a-scalable-peer-to-peer-lookup-service-for-internet-applications.md)
+  * [Replicated Data Consistency Explained Through Baseball](storage/index/replicated-data-consistency-explained-through-baseball.md)
+  * [Session Guarantees for Weakly Consistent Replicated Data](storage/index/session-guarantees-for-weakly-consistent-replicated-data.md)
+  * [Flat Datacenter Storage](storage/index/flat-datacenter-storage.md)
+  * [Small Cache, Big Effect: Provable Load Balancing forRandomly Partitioned Cluster Services](storage/index/small-cache-big-effect-provable-load-balancing-forrandomly-partitioned-cluster-services.md)
+  * [DistCache: provable load balancing for large-scale storage systems with distributed caching](storage/index/distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed-caching.md)
+  * [Short Summaries](storage/index/short-summaries.md)
 
 ## Coordination
 
