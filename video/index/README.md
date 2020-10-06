@@ -25,13 +25,14 @@
 * [**Live Video Analytics at Scale with Approximation and Delay-Tolerance**](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zhang.pdf) - Zhang et al., NSDI’ 17
   * Objective: support efficient real-time analytics for multiple queries which have different quality and lag goals
   * Offline Phase: use profiler to get a set of pareto-optimal configurations\(a combination of knobs\) from resource-quality space \(with a variant of greedy hill-climbing\)
-  * Online Phase: periodically change running queries’ configurations/placement/resource allocation to maximize total utility\(quality + lag goals\) 
-* [**Cachier: Edge-Caching for Recognition Applications**](https://ieeexplore.ieee.org/document/7979974) - Drolia et al., 2017
-  * Use edge server as a cache with compute resources\(similar to CDN\)
+  * Online Phase: periodically change running queries’ configurations/placement/resource allocation to maximize total utility\(quality + lag goals\)
 * [**Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads**](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-fouladi.pdf) - Fouladi et al., NSDI’ 17
   * Leverage the emerging microservice frameworks\(e.g., AWS Lambda\) to provide low-latency video processing
   * Key insight: Video encoding can be divided into fast and slow parts, with the “slow” work\(searching for correlations between frames\) done in parallel across thousands of tiny threads, and only “fast” work done serially.
   * Exploits its codec's ability to save and restore its internal state
+* [**Cachier: Edge-Caching for Recognition Applications**](https://ieeexplore.ieee.org/document/7979974) - Drolia et al., ICDCS' 17
+  * Use edge server as a cache with compute resources\(similar to CDN\)\
+* \*\*\*\*[**LAVEA: Latency-aware Video Analytics on Edge Computing Platform**](http://www.cs.wm.edu/~syi/publications/sedgec17_1.pdf) - Yi et al., SEC' 17
 * \*\*\*\*[**Neurosurgeon: collaborative intelligence between the cloud and the mobile edge**](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf) - Kang et al., ASPLOS' 17 \[[Morning Paper Summary](https://blog.acolyer.org/2017/05/25/neurosurgeon-collaborative-intelligence-between-the-cloud-and-the-mobile-edge/)\]
   * Observed that 1\) data transfer latency is often higher than mobile computation latency, especially on wireless networks. 2\) inside a model, data size is decreasing at the front-end whereas per-layer latency is higher at the back-end.
   * NOTE: 2\) isn't necessarily true for recent networks with global average pooling 
@@ -69,6 +70,7 @@
 * [**DeepLens: Towards a Visual Data Management System**](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) - Krishnan et al., CIDR’ 19
   * Objective: Indexing and query optimization for VDMS\(For complex queries like join\)
   * A novel model for encoding, indexing and storing lineage
+* \*\*\*\*[**VStore: A Data Store for Analytics on Large Videos**](https://web.ics.purdue.edu/~xu944/eurosys19.pdf) ****- Xu et al., EuroSys' 19
 * [**Networked Cameras Are the New Big Data Clusters**](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/hotedgevideo19camera.pdf) - Jiang et al., HotEdgeVideo’ 19
   * Proposes a new “camera cluster” abstraction
     * Saving computing resource
@@ -80,11 +82,11 @@
 * [**Scaling Video Analytics on Constrained Edge Nodes**](https://arxiv.org/abs/1905.13536) - Canel et al., SysML’ 19
   * Assumption: relevant events are rare.
   * Filter frames by using a micro, binary classifier that extract feature maps from base DNN
-* [**Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics**](https://www.usenix.org/conference/hotcloud19/presentation/wang) - Wang et al., HotCloud 19
-  * Use super-resolution to enhance video quality before running analytics\(related: [NAS](https://www.usenix.org/system/files/osdi18-yeo.pdf)\)
 * [**AdaScale: Towards Real-time Video Object Detection Using Adaptive Scaling**](https://arxiv.org/pdf/1902.02910.pdf) - Chin et al., SysML’ 19
   * Down-sampling images are sometimes beneficial in terms of accuracy\(e.g., removing background noise\)
   * Adaptively scaling video to improve both speed and accuracy of object detectors
+* [**Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics**](https://www.usenix.org/conference/hotcloud19/presentation/wang) - Wang et al., HotCloud 19
+  * Use super-resolution to enhance video quality before running analytics\(related: [NAS](https://www.usenix.org/system/files/osdi18-yeo.pdf)\)
 * [**Edge Assisted Real-time Object Detection for Mobile Augmented Reality**](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf) - Liu et al., MobiCom’ 19
   * Dynamic RoI Encoding: decrease the encoding quality of uninterested areas\(use the last processed frame as heuristic\)
   * \(Dependency-aware\) Parallel streaming and inference: divide frames into slices and parallelize the processing between slices
