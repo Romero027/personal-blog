@@ -15,6 +15,8 @@
   * [A Berkeley View of Systems Challenges for AI](seminal-theory/index/a-berkeley-view-of-systems-challenges-for-ai.md)
   * [Serverless Computing: One Step Forward, Two Steps Back](seminal-theory/index/serverless-computing-one-step-forward-two-steps-back.md)
 
+## Operating System
+
 ## Storage
 
 * [Index](storage/index/README.md)
