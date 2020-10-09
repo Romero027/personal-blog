@@ -1,5 +1,7 @@
 # Index
 
+* [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855) - Stoica et al., 2017
+
 ### Data Validation
 
 * \*\*\*\*[**Automating Large-Scale Data Quality Verification**](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf) ****- Schelter et al., VLDB' 18

@@ -8,14 +8,13 @@
 * [Index](seminal-theory/index/README.md)
   * [Impossibility of Distributed Consensus with One Faulty Process](seminal-theory/index/untitled.md)
   * [Time, Clocks, and the Ordering of Events in a Distributed System](seminal-theory/index/time-clocks-and-the-ordering-of-events-ina-distributed-system.md)
-  * [Logical Physical Clocks and Consistent Snapshots in Globally Distributed Databases](seminal-theory/index/logical-physical-clocks-and-consistent-snapshots-in-globally-distributed-databases.md)
   * [Using Reasoning About Knowledge to analyze Distributed Systems](seminal-theory/index/using-reasoning-about-knowledge-to-analyze-distributed-systems.md)
   * [CAP Twelve Years Later: How the “Rules” Have Changed](seminal-theory/index/cap-twelve-years-later-how-the-rules-have-changed.md)
   * [A Note on Distributed Computing](seminal-theory/index/a-note-on-distributed-computing.md)
-  * [A Berkeley View of Systems Challenges for AI](seminal-theory/index/a-berkeley-view-of-systems-challenges-for-ai.md)
-  * [Serverless Computing: One Step Forward, Two Steps Back](seminal-theory/index/serverless-computing-one-step-forward-two-steps-back.md)
 
 ## Operating System
+
+* [Index](operating-system/index.md)
 
 ## Storage
 
@@ -40,6 +39,7 @@
 ## Coordination
 
 * [Index](coordination/index/README.md)
+  * [Logical Physical Clocks and Consistent Snapshots in Globally Distributed Databases](coordination/index/logical-physical-clocks-and-consistent-snapshots-in-globally-distributed-databases.md)
   * [Paxos made simple](coordination/index/paxos-made-simple.md)
   * [ZooKeeper: Wait-free coordination for Internet-scale systems](coordination/index/zookeeper-wait-free-coordination-for-internet-scale-systems.md)
   * [Just Say NO to Paxos Overhead: Replacing Consensus with Network Ordering](coordination/index/just-say-no-to-paxos-overhead-replacing-consensus-with-network-ordering.md)
@@ -93,6 +93,7 @@
 ## Systems for ML <a id="ml-system"></a>
 
 * [Index](ml-system/sys-ml-index/README.md)
+  * [A Berkeley View of Systems Challenges for AI](ml-system/sys-ml-index/a-berkeley-view-of-systems-challenges-for-ai.md)
   * [Tiresias: A GPU Cluster Managerfor Distributed Deep Learning](ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Workshop papers](ml-system/sys-ml-index/workshop-papers.md)
@@ -120,11 +121,9 @@
   * [Accelerating Deep Learning via Importance Sampling](machine-learning/untitled/accelerating-deep-learning-by-focusing-on-the-biggest-losers.md)
   * [A Few Useful Things to Know About Machine Learning](machine-learning/untitled/ml.md)
 
-## Video-Related <a id="video"></a>
+## Video Analytics <a id="video"></a>
 
 * [Index](video/index/README.md)
-  * [Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport](video/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
-  * [Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads](video/index/untitled-1.md)
   * [Scaling Video Analytics on Constrained Edge Nodes](video/index/untitled.md)
   * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](video/index/focus-querying-large-video-datasetswith-low-latency-and-low-cost.md)
   * [NoScope: Optimizing Neural Network Queriesover Video at Scale](video/index/noscope-optimizing-neural-network-queriesover-video-at-scale.md)
@@ -132,6 +131,18 @@
   * [Chameleon: Scalable Adaptation of Video Analytics](video/index/chameleon-scalable-adaptation-of-video-analytics.md)
   * [End-to-end Learning of Action Detection from Frame Glimpses in Videos](video/index/end-to-end-learning-of-action-detection-from-frame-glimpses-in-videos.md)
   * [Short Summaries](video/index/short-summaries.md)
+
+## Networking
+
+* [Index](networking/index/README.md)
+  * [Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport](networking/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
+  * [Short Summaries](networking/index/short-summaries.md)
+
+## Serverless
+
+* [Index](serverless/index/README.md)
+  * [Serverless Computing: One Step Forward, Two Steps Back](serverless/index/serverless-computing-one-step-forward-two-steps-back.md)
+  * [Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads](serverless/index/untitled-1.md)
 
 ## Security/Privacy
 

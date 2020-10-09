@@ -26,12 +26,8 @@
   * Objective: support efficient real-time analytics for multiple queries which have different quality and lag goals
   * Offline Phase: use profiler to get a set of pareto-optimal configurations\(a combination of knobs\) from resource-quality space \(with a variant of greedy hill-climbing\)
   * Online Phase: periodically change running queries’ configurations/placement/resource allocation to maximize total utility\(quality + lag goals\)
-* [**Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads**](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-fouladi.pdf) - Fouladi et al., NSDI’ 17
-  * Leverage the emerging microservice frameworks\(e.g., AWS Lambda\) to provide low-latency video processing
-  * Key insight: Video encoding can be divided into fast and slow parts, with the “slow” work\(searching for correlations between frames\) done in parallel across thousands of tiny threads, and only “fast” work done serially.
-  * Exploits its codec's ability to save and restore its internal state
 * [**Cachier: Edge-Caching for Recognition Applications**](https://ieeexplore.ieee.org/document/7979974) - Drolia et al., ICDCS' 17
-  * Use edge server as a cache with compute resources\(similar to CDN\)\
+  * Use edge server as a cache with compute resources\(similar to CDN\)
 * \*\*\*\*[**LAVEA: Latency-aware Video Analytics on Edge Computing Platform**](http://www.cs.wm.edu/~syi/publications/sedgec17_1.pdf) - Yi et al., SEC' 17
 * \*\*\*\*[**Neurosurgeon: collaborative intelligence between the cloud and the mobile edge**](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf) - Kang et al., ASPLOS' 17 \[[Morning Paper Summary](https://blog.acolyer.org/2017/05/25/neurosurgeon-collaborative-intelligence-between-the-cloud-and-the-mobile-edge/)\]
   * Observed that 1\) data transfer latency is often higher than mobile computation latency, especially on wireless networks. 2\) inside a model, data size is decreasing at the front-end whereas per-layer latency is higher at the back-end.
@@ -55,11 +51,6 @@
   * Enable low-latency and low-cost querying over large historical video datasets.
   * At ingest time: classify objects using a cheap CNN, cluster similar objects\(KNN search\), and index each cluster using top-K most confident classification results.
   * At query-time: looks up the ingest index for cluster centroids that match the class and classifies them using expensive CNN. 
-* [**Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport Protocol**](https://cs.stanford.edu/~keithw/salsify-paper.pdf) - Fouladi et al., NSDI’ 18
-  * Proposes a tightly coupled codec and transport protocol
-  * Exploits its codec's ability to save and restore its internal state
-  * Three options when sending the next frame\(lower quality frame/higher quality frame/skip\)
-  * Never send a frame unless the network is ready
 * [**On-Demand Deep Model Compression for Mobile Devices: A Usage-Driven Model Selection Framework**](https://tik-old.ee.ethz.ch/file//79a7dd6f6370f809e6180c0746232283/mobisys18-liu.pdf) - Liu et al., MobiSys’ 18
   * Adaptively select DNN compression techniques based on user demand\(Acc/Storage/Comp cost/Latency/Energy\) 
 * [**Sprocket: A Serverless Video Processing Framework**](http://cseweb.ucsd.edu/~gmporter/papers/socc18-sprocket.pdf) - Ao et al., SoCC’ 18
@@ -101,8 +92,6 @@
   * Objective: Support \(approximate\) aggregate and limit queries over large video dataset
   * At ingest time, run object detection on small samples of frames and store them
   * For each query, use them to train a query-specific proxy model
-* \*\*\*\*[**Vantage: optimizing video upload for time-shifted viewing of social live streams**](https://dl.acm.org/doi/10.1145/3341302.3342064) ****- Ray et al., SIGCOMM' 19
-  * Retransmit low-quality frames during high bandwidth period to improve QoE for delayed viewers
 * \*\*\*\*[**MIRIS: Fast Object Track Queries in Video** ](https://favyen.com/miris-sigmod.pdf)- Bastani et al., SIGMOD' 20
 * \*\*\*\*[**Server-Driven Video Streaming for Deep Learning Inference**](https://dl.acm.org/doi/pdf/10.1145/3387514.3405887) ****- Du et al., SIGCOMM' 20
   * Iterative video processing driven by server-side DNN
@@ -111,6 +100,7 @@
 * \*\*\*\*[**Visor: Privacy-Preserving Video Analytics as a Cloud Service**](https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Visor-Privacy-Preserving-Video-Analytics-as-a-Cloud-Service.pdf) - Poddar - et al., Security' 20
 * [**Panorama: A Data System for Unbounded Vocabulary Querying over Video**](http://www.vldb.org/pvldb/vol13/p477-zhang.pdf) - Zhang et al., VLDB' 20
   * A system that let users generalize to unbounded vocabularies without manual retraining
+* \*\*\*\*[**Real-Time Video Inference on Edge Devices via Adaptive Model Streaming**](https://arxiv.org/pdf/2006.06628.pdf) - Khani et al., arXiv' 20
 
 \*\*\*\*
 
