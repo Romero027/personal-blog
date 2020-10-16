@@ -2,12 +2,12 @@
 
 ### Algorithm
 
-* [A Few Useful Things to Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Domingos CACM' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/ml)\]
-* [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf) - Sculley et al, NIPS' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/hidden-technical-debt-in-machine-learning-systems)\]
+* \*\*\*\*[**A Few Useful Things to Know About Machine Learning**](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Domingos CACM' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/ml)\]
+* \*\*\*\*[**Hidden Technical Debt in Machine Learning Systems**](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf) - Sculley et al, NIPS' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/hidden-technical-debt-in-machine-learning-systems)\]
   * Identified the technical debt of Machine Learning system and provided some common mitigation strategy.
-* [Don't Decay The Learning Rate, Increase The Batch Size](https://openreview.net/pdf?id=B1Yy1BxCZ)\* - Smith et al, ICLR' 18 
+* [**Don't Decay The Learning Rate, Increase The Batch Size**](https://openreview.net/pdf?id=B1Yy1BxCZ)\* - Smith et al, ICLR' 18 
   * Showed that we can increase the batch size, instead of decreasing the learning rate, to get equivalent test accuracies after the same number of training epochs, but with fewer parameter updates, leading to greater parallelism and shorter training times.
-* [Accelerating Deep Learning by Focusing on the Biggest Losers](https://arxiv.org/abs/1910.00762) - Jiang et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/accelerating-deep-learning-by-focusing-on-the-biggest-losers)\]
+* \*\*\*\*[**Accelerating Deep Learning by Focusing on the Biggest Losers**](https://arxiv.org/abs/1910.00762) - Jiang et al., arxiv 2019 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/accelerating-deep-learning-by-focusing-on-the-biggest-losers)\]
   * Proposes an algorithm that accelerates the training of deep neural networks \(DNNs\) by prioritizing examples with high loss at each iteration. 
 
 ### Faster Inference
@@ -26,4 +26,8 @@
 * \*\*\*\*[**Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning**](https://arxiv.org/abs/1702.07464)\* - Hitaj et al., CCS' 17
   * Proposed and implement an active inference attack on deep neural networks in a collaborative setting\(which stresses the importance of using secure aggregation and differential privacy.\)
 * \*\*\*\*[**Deep Leakage from Gradients**](https://arxiv.org/abs/1906.08935) **-** Zhu et al., NIPS' 19 ****\[[Zhihu](https://www.zhihu.com/question/345365328/answer/930250128)\]
+
+### Misc.
+
+* \*\*\*\*[**Beyond Accuracy: Behavioral Testing of NLP Models with CheckList** ](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf)- Ribeiro et al., ACL' 20
 
