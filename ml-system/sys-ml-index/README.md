@@ -1,6 +1,6 @@
 # Index
 
-* [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855) - Stoica et al., 2017
+* \*\*\*\*[**A Berkeley View of Systems Challenges for AI**](https://arxiv.org/pdf/1712.05855) ****- Stoica et al., 2017
 
 ### Data Validation
 
