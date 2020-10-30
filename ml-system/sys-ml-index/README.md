@@ -66,7 +66,8 @@
 * \*\*\*\*[**DeepCPU: Serving RNN-based Deep Learning Models 10x Faster**](https://www.usenix.org/system/files/conference/atc18/atc18-zhang-minjia.pdf) ****- Zhang et al., ATC' 18
 * \*\*\*\*[**GRNN: Low-Latency and Scalable RNN Inference on GPUs**](https://dl.acm.org/doi/abs/10.1145/3302424.3303949) ****- Holmes et al., EuroSys' 19
 * \*\*\*\*[**MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving**](https://www.usenix.org/conference/atc19/presentation/zhang-chengliang) - Zhang et al., ATC' 19
-* \*\*\*\*[**Optimizing CNN Model Inference on CPUs**](https://www.usenix.org/conference/atc19/presentation/liu-yizhi) **- Liu et al., ATC' 19**
+  * Proposes a SLO-aware model scheduling and scaling by selecting between AWS EC2 and AWS lambda to absorb load bursts.
+* \*\*\*\*[**Optimizing CNN Model Inference on CPUs**](https://www.usenix.org/conference/atc19/presentation/liu-yizhi) ****- Liu et al., ATC' 19
 * \*\*\*\*[**Parity Models: Erasure-Coded Resilience for Prediction Serving Systems**](http://delivery.acm.org/10.1145/3360000/3359654/p30-kosaian.pdf?ip=35.3.50.157&id=3359654&acc=OPENTOC&key=93447E3B54F7D979%2E0A17827594E6F2C8%2E4D4702B0C3E38B35%2EC42B82B87617960C&__acm__=1572846710_212460fc2118b4ddbb56646253af114b) - Kosaian et al, SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/prediction-serving)\]
   * A Learning-based approach to achieve erasure-coded resilience for Neural Networks.
 * \*\*\*\*[**Nexus: a GPU cluster engine for accelerating DNN-based video analysis**](https://dl.acm.org/doi/10.1145/3341301.3359658) ****- Shen et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
