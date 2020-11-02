@@ -13,14 +13,15 @@
 ### [Resource Management ](https://xzhu0027.gitbook.io/blog/big-data-sys/resource-management)
 
 * [**Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center**](https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf) ****- Hindman et al., NSDI' 11 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center)\]
+* [**Dominant Resource Fairness** ](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) - Ghodsi et al., NSDI' 11\[Summary\]
+* [**PACMan: Coordinated Memory Caching for Parallel Jobs**](https://www.usenix.org/system/files/conference/nsdi12/pacman.pdf) - Ananthanarayanan et al., NSDI' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/pacman-coordinated-memory-caching-for-parallel-jobs)\]
 * \*\*\*\*[**Apache Hadoop YARN: Yet Another Resource Negotiator**](https://www.cse.ust.hk/~weiwa/teaching/Fall15-COMP6611B/reading_list/YARN.pdf) ****- Vavilapallih et al., SoCC' 13 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/apache-hadoop-yarn-yet-another-resource-negotiator)\]
 * \*\*\*\*[**Making Sense of Performance in Data Analytics Framework** ](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-ousterhout.pdf)- Ousterhout et al., SOSP' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/making-sense-of-performance-in-data-analytics-framework)\]
 * \*\*\*\*[**Large-scale cluster management at Google with Borg**](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43438.pdf) **-** Verma et al., EuroSys' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/large-scale-cluster-management-at-google-with-borg)\]
-* \*\*\*\*[**Borg, Omega, and Kubernetes**](https://ai.google/research/pubs/pub44843) ****- Burns et al., ACM Queue 2016
-* [**Dominant Resource Fairness** ](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) - Ghodsi et al., NSDI' 11\[Summary\]
-* \*\*\*\*[**Learning Scheduling Algorithms for Data Processing Clusters**](https://web.mit.edu/decima/content/sigcomm-2019.pdf) ****- Hongzi et al., SIGCOMM' 19 \[Summary\]
-* [**PACMan: Coordinated Memory Caching for Parallel Jobs**](https://www.usenix.org/system/files/conference/nsdi12/pacman.pdf) - Ananthanarayanan et al., NSDI' 12 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/pacman-coordinated-memory-caching-for-parallel-jobs)\]
 * \*\*\*\*[**Efficient Queue Management for Cluster Scheduling**](https://www.cse.ust.hk/~weiwa/teaching/Fall16-COMP6611B/reading_list/Yaq.pdf) - Rasley et al., EuroSys' 16 \[[Summary](https://xzhu0027.gitbook.io/blog/big-data-sys/other-interesting-papers#efficient-queue-management-for-cluster-scheduling-rasley-et-al-eurosys-16)\]
+* [**Morpheus: Towards Automated SLOs for Enterprise Clusters**](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/jyothi) -Jyothi et al., OSDI' 16
+* [**Borg, Omega, and Kubernetes**](https://ai.google/research/pubs/pub44843) ****- Burns et al., ACM Queue 2016
+* \*\*\*\*[**Learning Scheduling Algorithms for Data Processing Clusters**](https://web.mit.edu/decima/content/sigcomm-2019.pdf) ****- Hongzi et al., SIGCOMM' 19 
 
 ### Scheduling 
 
@@ -33,8 +34,8 @@
 
 ### Storage
 
-* \*\*\*\*[**Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks**](https://people.csail.mit.edu/matei/papers/2014/socc_tachyon.pdf) - Li et al., SoCC' 2014 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks)\]
 * \*\*\*\*[**Flat Datacenter Storage**](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf) - Nightingale et al., OSDI' 2012 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/flat-datacenter-storage)\]
+* \*\*\*\*[**Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks**](https://people.csail.mit.edu/matei/papers/2014/socc_tachyon.pdf) - Li et al., SoCC' 2014 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks)\]
 * \*\*\*\*[**EC-Cache: Load-balanced, Low-latency Cluster Caching with Online Erasure Coding**](https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf) ****- Rashmi et al., OSDI' 16
 
 ### Fault Tolerance 
