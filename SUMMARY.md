@@ -98,7 +98,7 @@
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Workshop papers](ml-system/sys-ml-index/workshop-papers.md)
   * [Hidden Technical Debt in Machine Learning Systems](ml-system/sys-ml-index/hidden-technical-debt-in-machine-learning-systems.md)
-  * [Serving Systems](ml-system/sys-ml-index/prediction-serving.md)
+  * [Inference Systems](ml-system/sys-ml-index/inference.md)
   * [Parameter Servers and AllReduce](ml-system/sys-ml-index/parameter-servers.md)
   * [Federated Learning at Scale - Part I](ml-system/sys-ml-index/towards-federated-learning-at-scale-system-design.md)
   * [Federated Learning at Scale - Part II](ml-system/sys-ml-index/federated-learning-at-scale-part-i.md)

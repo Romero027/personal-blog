@@ -1,4 +1,4 @@
-# Serving Systems
+# Inference Systems
 
 ### Introduction
 
