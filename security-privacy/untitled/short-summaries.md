@@ -18,5 +18,15 @@ Prio is built on a simple scheme, where each client splits its private value $$x
 
 ![](../../.gitbook/assets/screen-shot-2020-09-25-at-5.59.50-pm.png)
 
-Similar to [Neurosurgeon](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf), Shredder also partitions the model for inference between edge and cloud. In addition, it proposes a technique that adds noise to the intermediate result to preserve privacy while maintaining good inference results. The key idea is to find noise distributions through a disjoint offline learning process with a loss function that strikes a balance between information loss and accuracy.  
+Similar to [Neurosurgeon](https://web.eecs.umich.edu/~jahausw/publications/kang2017neurosurgeon.pdf), Shredder also partitions the model for inference between edge and cloud. In addition, it proposes a technique that adds noise to the intermediate result to preserve privacy while maintaining good inference results. The key idea is to find noise distributions through a disjoint offline learning process with a loss function that strikes a balance between information loss and accuracy. 
+
+### [Orchard: Differentially Private Analytics at Scale](https://www.usenix.org/conference/osdi20/presentation/roth) - Roth et al., OSDI' 20
+
+ This is a follow-up work of their Honeycrisp system in SOSP' 19. Honeycrisp's key idea is to use a small committee of 20-40 randomly selected user devices\(instead of a trusted third party\) to decrypt the aggregated data and add noise. However, Honeycrisp only supports count mean sketch. Orchard aims to support a wide range of queries on user devices.
+
+Orchard's key observation is that many queries can be transformed into node-local computation, sequences of sums, and some public computation. As a result, we can transform complex queries \(the paper uses k-means as an example\) into ones that use mostly sums, which means we can use Honeycrisp's primitives to do differentially private analytics.
+
+The workflow of Orchard is the following: 1\)Aggregator writes \(centralized\) query 2\)Orchard translates to a distributed query 3\) Users process local data and encrypt results 4\)Encrypted results are securely aggregated 5\) Committee adds noise and returns query result and 6\) Aggregator sees only the result, but never any individual's data.
+
+The evaluation shows that Orchard can support 14 out of 17 selected queries, including neural networks. However, the computation cost of user devices raises some concerns. For example, the neural network in Orchard takes about 25 minutes of computation time.
 
