@@ -14,3 +14,11 @@ Thus, Pegasus uses a selective replication and in-network coherence directory ap
 
 Pegasus can handle arbitrary object sizes, guarantee linearizability, and support any read-write ratio. The evaluation shows that Pegasus can increase the throughput by up to 10x or reduce by 90% the number of servers required and still satisfy a 99%-latency SLO.
 
+### \*\*\*\*[**PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive redundancy**](https://www.usenix.org/conference/osdi20/presentation/kadekodi) ****- ****Kadekodi  et al., OSDI' 20
+
+This a follow-up work of their HeART paper in FAST' 19. Storage clusters consist of heterogeneous disks with highly varying failure rates. HeART proposes that we should treat subsets of disks with different AFR characteristics differently. It adapts redundancy of each disk by observing its failure rate on the fly depending on its make/model and current age. The key idea is that we can reduce the redundancy level during the disks' useful life. 
+
+![](../../.gitbook/assets/screen-shot-2020-11-12-at-10.45.08-pm.png)
+
+However, such design is reactive, the data will continue to be under-protected until the redundancy scheme transition completes. This paper introduces PACEMAKER, which is a low-overhead disk-adaptive redundancy orchestrator. The key component is a proactive-transition-initiator, which determines when to transition the disk, and a transition executor, which determine how to transition the disks. PACEMAKER introduces two new approaches for changing the redundancy scheme to avoid the expensive reading-re-encoding-writing approach.
+
