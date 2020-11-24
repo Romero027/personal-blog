@@ -44,6 +44,7 @@
 * \*\*\*\*[**Adaptive Communication Strategies in Local-Update SGD**](https://arxiv.org/pdf/1810.08313.pdf) **-** Wang et al., SysML' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#adaptive-communication-strategies-in-local-update-sgd-wang-et-al-2018)\]
   * Proposed an adaptive algorithm for choosing $$\tau$$ in asynchronous training. \(Change $$\tau $$ as algorithm converges\)
 * \*\*\*\*[**Ray: A Distributed Framework for Emerging AI Applications**](https://www.usenix.org/system/files/osdi18-moritz.pdf) ****- Moritz et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/ray-a-distributed-framework-for-emerging-ai-applications)\] 
+* \*\*\*\*[**Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads**](https://www.usenix.org/conference/atc19/presentation/jeon) ****- Jeon et al., ATC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/misc-1#analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads)\]
 * \*\*\*\*[**PipeDream: Generalized Pipeline Parallelism for DNN Training**](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf) - Narayanan et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/pipedream-generalized-pipeline-parallelism-for-dnn-training)\]
   * Proposed Pipeline-parallel training that combines data and model parallelism with pipelining. 
 * \*\*\*\*[**A Generic Communication Scheduler for Distributed DNN Training Acceleration**](https://dl.acm.org/authorize?N695016) - Peng et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
@@ -87,9 +88,9 @@
   * Proposed a framework for Collaborative Learning
 * [**Collaborative Learning between Cloud and End Devices: An Empirical Study on Location Prediction**](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/sec19colla.pdf) ****- Lu et al., SEC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/misc#collaborative-learning-between-cloud-and-end-devices-an-empirical-study-on-location-prediction-lu-et-al-2019)\]
 * [**DeepXplore: Automated Whitebox Testing of Deep Learning Systems**](http://www.cs.columbia.edu/~junfeng/papers/deepxplore-sosp17.pdf) ****- Pei et al., SOSP' 17 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/deepxplore-automated-whitebox-testingof-deep-learning-systems)\]
-* \*\*\*\*[**Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads**](https://www.usenix.org/conference/atc19/presentation/jeon) ****- Jeon et al., ATC' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/misc-1#analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads)\]
 * \*\*\*\*[**A unifying view on dataset shift in classification**](https://rtg.cis.upenn.edu/cis700-2019/papers/dataset-shift/dataset-shift-terminology.pdf) - Moreno-Torres et al., 2010 
-  * Explained various types of data shift\(i.e. covariate shift,  prior probability shift, and Concept Shift\) 
+  * Explained various types of data shift\(i.e. covariate shift,  prior probability shift, and Concept Shift\)
+* \*\*\*\*[**A First Look at Deep Learning Apps on Smartphones**](https://arxiv.org/abs/1812.05448) ****- Xu et al., WWW' 19
 
 
 
