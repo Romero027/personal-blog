@@ -20,4 +20,5 @@
 * \*\*\*\*[**Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity**](https://www.usenix.org/conference/fast19/presentation/kadekodi) ****- ****Kadekodi et al., FAST' 19
 * \*\*\*\*[**Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories**](https://www.usenix.org/conference/osdi20/presentation/li-jialin) ****- Li et al., OSDI' 20 \[[Summary](https://xzhu0027.gitbook.io/blog/storage/index/short-summaries#pegasus-tolerating-skewed-workloads-in-distributed-storage-with-in-network-coherence-directories-li-et-al-osdi-20)\]
 * \*\*\*\*[**PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive redundancy**](https://www.usenix.org/conference/osdi20/presentation/kadekodi) ****- ****Kadekodi  et al., OSDI' 20
+* \*\*\*\*[**A large scale analysis of hundreds of in-memory cache clusters at Twitter**](https://www.usenix.org/conference/osdi20/presentation/yang) ****- Yang et al., OSDI' 20
 
