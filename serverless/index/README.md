@@ -19,7 +19,9 @@
 * \*\*\*\*[**Cirrus: a Serverless Framework for End-to-end ML Workflows**](https://dl.acm.org/doi/10.1145/3357223.3362711) ****- ****Carreira et la., SoCC' 19
 * \*\*\*\*[**From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers**](https://www.usenix.org/conference/atc19/presentation/fouladi) ****- ****Fouladi et al., ATC' 19
 * \*\*\*\*[**InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache**](https://www.usenix.org/conference/fast20/presentation/wang-ao) ****- Wang et al., FAST' 20
+* \*\*\*\*[**A Fault-tolerance Shim for Serverless Computing**](https://dl.acm.org/doi/10.1145/3342195.3387535) ****- Sreekanti et al., EuroSys' 20
 * \*\*\*\*[**Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider**](https://www.usenix.org/conference/atc20/presentation/shahrad) ****- ****Shahrad et al., ATC' 20
 * \*\*\*\*[**Sequoia: Enabling Quality-of-Service in Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421306) ****- Tariq et al., SoCC' 20
 * \*\*\*\*[**Kappa: A Programming Framework for Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421277) ****- Zhang et al., SoCC' 20
+* \*\*\*\*[**Fault-tolerant and transactional stateful serverless workflows**](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran) ****- Zhang et al., OSDI' 20
 
