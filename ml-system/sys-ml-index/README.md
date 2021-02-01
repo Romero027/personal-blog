@@ -57,6 +57,7 @@
 * \*\*\*\*[**Gandiva: Introspective Cluster Scheduling for Deep Learning**](https://www.usenix.org/conference/osdi18/presentation/xiao) ****- Xiao et al., OSDI' 18 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/gandiva-introspective-cluster-scheduling-for-deep-learning)\]
 * \*\*\*\*[**Tiresias: A GPU Cluster Manager for Distributed Deep Learning**](https://www.usenix.org/system/files/nsdi19-gu.pdf) - Gu et al., NSDI' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/tiresias-a-gpu-cluster-managerfor-distributed-deep-learning)\]
 * \*\*\*\*[**Themis: Fair and Efficient GPU Cluster Scheduling**](https://www.usenix.org/conference/nsdi20/presentation/mahajan) - Mahajan et al., NSDI' 20 
+* \*\*\*\*[**AntMan: Dynamic Scaling on GPU Clusters for Deep Learning**](https://www.usenix.org/conference/osdi20/presentation/xiao) ****- Xiao et al., OSDI' 20
 
 ### Inference
 

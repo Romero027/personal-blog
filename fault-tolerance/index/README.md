@@ -10,6 +10,7 @@
 * \*\*\*\*[**Efficient Scalable Thread-Safety-Violation Detection**](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf) - Li et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/fault-tolerance/index/efficient-scalable-thread-safety-violation-detection)\]
 * [**Check before You Change: Preventing Correlated Failures in Service Updates** ](https://ennanzhai.github.io/pub/nsdi20-cloudcanary.pdf)- Zhai et al., NSDI' 20 \[[Summary](https://xzhu0027.gitbook.io/blog/fault-tolerance/index/check-before-you-change-preventing-correlated-failures-in-service-updates)\]
 * \*\*\*\*[**Understanding, Detecting and Localizing Partial Failures in Large System Software**](https://www.usenix.org/system/files/nsdi20-paper-lou.pdf) - Lou et al., NSDI'20
+* \*\*\*\*[**Automated Reasoning and Detection of Specious Configuration in Large Systems with Symbolic Execution**](https://www.usenix.org/conference/osdi20/presentation/hu) ****- Hu et al., OSDI' 20
 
 
 
