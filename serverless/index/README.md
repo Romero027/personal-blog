@@ -23,5 +23,3 @@
 * \*\*\*\*[**Sequoia: Enabling Quality-of-Service in Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421306) ****- Tariq et al., SoCC' 20
 * \*\*\*\*[**Kappa: A Programming Framework for Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421277) ****- Zhang et al., SoCC' 20
 
-
-
