@@ -50,6 +50,8 @@
 * \*\*\*\*[**A Generic Communication Scheduler for Distributed DNN Training Acceleration**](https://dl.acm.org/authorize?N695016) - Peng et al., SOSP' 19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/sys-ml-index/prediction-serving#nexus-a-gpu-cluster-engine-for-accelerating-dnn-based-video-analysis)\]
   * Key insight: Communication of former layers of a neural network has higher priority and can preempt communication of latter layers.
 * \*\*\*\*[**HetPipe: Enabling Large DNN Training on \(Whimpy\) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism**](https://www.usenix.org/conference/atc20/presentation/park) ****- Park et al., ATC' 20 
+* \*\*\*\*[**A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters** ](https://www.usenix.org/conference/osdi20/presentation/jiang)**- Jiang et al., OSDI' 20**
+  * Presented a concise overview of theoritical performance of PS and All-reduce architecture
 
 ### Deep Learning Scheduler
 
