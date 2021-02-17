@@ -51,7 +51,8 @@
   * Key insight: Communication of former layers of a neural network has higher priority and can preempt communication of latter layers.
 * \*\*\*\*[**HetPipe: Enabling Large DNN Training on \(Whimpy\) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism**](https://www.usenix.org/conference/atc20/presentation/park) ****- Park et al., ATC' 20 
 * \*\*\*\*[**A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters** ](https://www.usenix.org/conference/osdi20/presentation/jiang)**- Jiang et al., OSDI' 20**
-  * Presented a concise overview of theoritical performance of PS and All-reduce architecture
+  * Presented a concise overview of the theoretical performance of PS and All-reduce architecture
+  * Proposed an architecture to accelerate distributed DNN training by 1\) leveraging spare CPU and network resources, 2\) optimizing both inter-machine and intra-machine communication, and 3\) move parameter updates to GPUs
 
 ### Deep Learning Scheduler
 
