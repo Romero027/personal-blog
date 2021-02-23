@@ -1,6 +1,6 @@
 # The Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services
 
-_The Mystery Machine_ is a performance analysis tool for measuring and uncovering performance insights about complex, heterogeneous distributed systems. The key insight is that the large amount of requests handled by modern services allows us to gather observations of the order in which messages are logged over a tremendous number of requests. Thus, we can leverage these logs to generate a causal model of system behavior without the need to add substantial new instrumentation or manually generate a schema of application behavior.
+_The Mystery Machine_ is a performance analysis tool for measuring and uncovering performance insights about complex, heterogeneous distributed systems. The key insight is that the large amount of requests handled by modern services allows us to gather observations of the order in which messages are logged over a tremendous number of requests. Thus, we can leverage these logs/traces to generate a causal model of system behavior without the need to add substantial new instrumentation or manually generate a schema of application behavior.
 
 ![](../../.gitbook/assets/screen-shot-2021-02-23-at-12.10.14-pm.png)
 
