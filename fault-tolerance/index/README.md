@@ -1,5 +1,6 @@
 # Index
 
+* \*\*\*\*[**The Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services**](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow) ****- Chow et al., OSDI' 14
 * \*\*\*\*[**Lineage-driven Fault Injection**](https://people.ucsc.edu/~palvaro/molly.pdf) - Alvaro et al., SIGMOD' 15 \[[Summary](https://xzhu0027.gitbook.io/blog/fault-tolerance/index/lineage-driven-fault-injection)\]
 * \*\*\*\*[**Early Detection of Configuration Errors to Reduce Failure Damage** ](https://www.usenix.org/system/files/conference/osdi16/osdi16-xu.pdf)- Xu et al., OSDI' 16
 * \*\*\*\*[**Gray Failure: The Achilles’ Heel of Cloud-Scale Systems**](https://www.cs.jhu.edu/~huang/paper/grayfailure-hotos17.pdf) - Huang et al., HotNets' 16
