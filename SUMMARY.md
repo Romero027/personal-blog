@@ -50,6 +50,7 @@
 ## Fault Tolerance
 
 * [Index](fault-tolerance/index/README.md)
+  * [The Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services](fault-tolerance/index/the-mystery-machine-end-to-end-performance-analysis-of-large-scale-internet-services.md)
   * [Gray Failure: The Achilles’ Heel of Cloud-Scale Systems](fault-tolerance/index/gray-failure.md)
   * [Capturing and Enhancing In Situ System Observability for Failure Detection](fault-tolerance/index/capturing-and-enhancing-in-situ-system-observability-for-failure-detection.md)
   * [Check before You Change: Preventing Correlated Failures in Service Updates](fault-tolerance/index/check-before-you-change-preventing-correlated-failures-in-service-updates.md)
