@@ -14,5 +14,13 @@ Once a causal model of segments is generated, we can perform several types of pe
 
 \*Slack is defined as the amount by which the duration of a segment may increase without increasing the end-to-end latency. By definition, segments on the critical path have no slack. 
 
+\*\*\*\*[**DQBarge: Improving Data-Quality Tradeoffs in Large-Scale Internet Services**](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/chow) - Chow et al., OSDI' 16
+
+![](../../.gitbook/assets/screen-shot-2021-02-23-at-2.34.18-pm.png)
+
+DQBarge is a follow-up work of _The Mystery Machine_ and allows components to make data-quality trade-offs. For each production request, DQBarge passes extra data\(load metrics, critical path, etc.\) along the casual path of request processing. It predicts the critical path for each request and which software components will have substantial slack in processing time. At each potential tradeoff site, services query DQBarge to determine which tradeoffs to make. 
+
+
+
 
 
