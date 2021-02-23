@@ -28,5 +28,9 @@ Some details about the model:
 * The input to the model is the number of pending I/Os of that device +  the latency of N\(e.g., 4\) most-recently completed I/Os + the number of pending I/Os at the time when each of the R completed I/Os arrived
 * To train the model, LinnOS uses the current live workload that the SSD is serving. Each traced I/Os is labeled as "fast" or "slow". 
 
+### \*\*\*\*[**Interpreting Deep Learning-Based Networking Systems**](https://dl.acm.org/doi/10.1145/3387514.3405859) ****- Meng et al., SIGCOMM' 20
 
+![](../../.gitbook/assets/screen-shot-2021-02-23-at-3.24.21-pm.png)
+
+Deep learning-based networked systems \(e.g., [Pensieve](http://web.mit.edu/pensieve/) and [Decima](https://web.mit.edu/decima/content/sigcomm-2019.pdf)\). treat DNNs as black-boxes, which makes them hard to debug, deploy, and adjust. Metis is a framework that provides interpretability of these systems and the goal is to interpret DL-based networked systems with human-readable control policies. It adopts a decision tree conversion method for local systems\(i.e., systems that collect local information and make decisions for one instance only.\) and a hypergraph conversion method for global systems\(i.e., systems that aggregate information across the network and make global planning for multiple instances.\)
 

@@ -2,19 +2,19 @@
 
 ### Why we need Machine Learning for Systems?
 
-\(Paraphrase from Jeff Dean's keynote talk in SysML\) As we know, traditional low-level systems\(e.g. operating systems, compilers and storage systems\) do not make extensive use of machine learning today. However, computer systems are filled with heuristics, which have to work well "in general cases.", but they generally don't adapt to actual pattern of usage and don't take into account available context.
+\(Paraphrase from Jeff Dean's keynote talk in SysML\) As we know, traditional low-level systems\(e.g. operating systems, compilers, and storage systems\) do not make extensive use of machine learning today. However, computer systems are filled with heuristics, which have to work well "in general cases.", but they generally don't adapt to actual patterns of usage and don't take into account available context.
 
-For example, when BigTable receives a request to load data from disk, it needs to decide whether to cache or not cache a particular block. Obviously, if the client is doing a sequential scan of the data, then he might never re-access that block, but if he is doing random access of the data, he will likely access the same block in the future. For example, jobs like MapReduce is very likely to do a sequential scan. We can not hard-code these type of information into the heuristics, but a learned system might actually can take this information into account\(e.g. the job name and the user\).
+For example, when BigTable receives a request to load data from a disk, it needs to decide whether to cache or not cache a particular block. Obviously, if the client is doing a sequential scan of the data, then he might never re-access that block, but if he is doing random access of the data, he will likely access the same block in the future. For example, jobs like MapReduce are very likely to do a sequential scan. We can not hard-code this type of information into the heuristics, but a learned system might actually take this information into account\(e.g. the job name and the user\).
 
 In general, anywhere we're using heuristics to make a decision gives us an opportunity for using machine learning instead in an online manner.
 
 * **Compilers**: instruction scheduling, register allocation, loop nest parallelization strategies..
-* **Networking**: TCP window size decisions, back-off for restransmits, data compression...
-* **Operating** **Systems**: process scheduling, buffer cache insertio/replacement, file system prefetching...
-* **Job scheduling system**: which tasks/VM to co-locate on same machine, which tasks to pre-empt..
+* **Networking**: TCP window size decisions, back-off for retransmits, data compression...
+* **Operating** **Systems**: process scheduling, buffer cache insertion/replacement, file system prefetching...
+* **Job scheduling system**: which tasks/VM to co-locate on the same machine, which tasks to pre-empt...
 * **ASIC design**: physical circuit layout, test case selection.
 
-And anywhere we have a huge numbers of tunable command-line flags! 
+And anywhere we have a huge number of tunable command-line flags! 
 
 Keys for success in these settings:
 
