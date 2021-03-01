@@ -24,5 +24,6 @@
 * \*\*\*\*[**Cloudburst: Stateful Functions-as-a-service**](https://dl.acm.org/doi/abs/10.14778/3407790.3407836) ****- Sreekanti et al., VLDB' 20 
 * \*\*\*\*[**Sequoia: Enabling Quality-of-Service in Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421306) ****- Tariq et al., SoCC' 20
 * \*\*\*\*[**Kappa: A Programming Framework for Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421277) ****- Zhang et al., SoCC' 20
+  * Uses checkpoints \(implemented using continuations\) to tolerate lambda function timeouts
 * \*\*\*\*[**Fault-tolerant and Transactional Stateful Serverless Workflows**](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran) ****- Zhang et al., OSDI' 20
 
