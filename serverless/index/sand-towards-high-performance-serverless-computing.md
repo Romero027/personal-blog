@@ -22,5 +22,5 @@ Such design has three benefits: 1\) forking a process within a container incurs 
 
 ![](../../.gitbook/assets/screen-shot-2021-02-28-at-4.34.28-pm.png)
 
-As shown in the figure, the local message bus creates shortcuts for functions that interact with each other. In other words, the interacting functions can benefit from reduced latency because accessing the local message bus is much faster than accessing the global message bus. 
+As shown in the figure, the local message bus creates shortcuts for functions that interact with each other. In other words, the interacting functions can benefit from reduced latency because accessing the local message bus is much faster than accessing the global message bus. The global message bus allows functions to be executed on other hosts to avoid bottlenecks and serves as a backup for local message buses for reliability.
 
