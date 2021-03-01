@@ -145,6 +145,7 @@
   * [Serverless Computing: One Step Forward, Two Steps Back](serverless/index/serverless-computing-one-step-forward-two-steps-back.md)
   * [Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads](serverless/index/untitled-1.md)
   * [SAND: Towards High-Performance Serverless Computing](serverless/index/sand-towards-high-performance-serverless-computing.md)
+  * [Fault-tolerant and Transactional Stateful Serverless Workflows](serverless/index/fault-tolerant-and-transactional-stateful-serverless-workflows.md)
 
 ## Edge Computing
 
