@@ -19,6 +19,7 @@
 * [COS518: Advanced Computer Systems](https://www.cs.princeton.edu/courses/archive/spr17/cos518/syllabus.html) \(S17\) at Princeton
 * [CS 331: Advanced Operating Systems](https://www.classes.cs.uchicago.edu/archive/2020/winter/33100-1/index.html#project) \(W19\) at UChicago
 * [CS262:Advanced Topics in Computer Systems](https://people.eecs.berkeley.edu/~kubitron/cs262/index_lectures.html) \(F19\) at UC Berkeley
+* [CSE 291H Modern Data Center Systems](https://cseweb.ucsd.edu/~yiying/cse291h-fall19/) \(F10\) at UC San Diego
 * [CS240: Advanced Topics in Operating Systems](http://web.stanford.edu/class/cs240/) \(S20\) at Stanford
 * [CS262: Advanced Topics in Computer Systems](https://bcourses.berkeley.edu/courses/1489815) \(S20\) at UC Berkeley
 * [6.828: Operating Systems \(Graduate Seminar\)](https://abelay.github.io/6828seminar/index.html) \(F20\) at MIT
