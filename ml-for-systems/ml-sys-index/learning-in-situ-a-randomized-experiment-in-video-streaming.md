@@ -23,7 +23,7 @@ To see why these objectives are conflicting, let's consider two extreme solution
 
 #### Adaptive Bitrate Selection
 
-Researchers have produced a literature of ABR schemes, including “rate-based” approaches that focus on matching the video bitrate to the network throughput\(e.g., [FESTIVE](https://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf)\), “buffer-based” algorithms that steer the duration of the playback buffer\(e.g., [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf)\), [control theoretic schemes](https://users.ece.cmu.edu/~vsekar/papers/sigcomm15_mpcdash.pdf) that try to maximize expected QoE over a receding horizon, given the upcoming chunk sizes and a prediction of the future throughput, and learning-based schemes\(e.g., Pensieve\).
+Researchers have produced a literature of ABR schemes, including “rate-based” approaches that focus on matching the video bitrate to the network throughput\(e.g., [FESTIVE](https://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf)\), “buffer-based” algorithms that steer the duration of the playback buffer\(e.g., [BBA](http://yuba.stanford.edu/~nickm/papers/sigcomm2014-video.pdf)\), [control theoretic schemes](https://users.ece.cmu.edu/~vsekar/papers/sigcomm15_mpcdash.pdf) that try to maximize expected QoE over a receding horizon, given the upcoming chunk sizes and a prediction of the future throughput, and learning-based schemes\(e.g., [Pensieve](http://web.mit.edu/pensieve/content/pensieve-sigcomm17.pdf)\).
 
 ### Puffer
 
