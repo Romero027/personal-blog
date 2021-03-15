@@ -43,7 +43,7 @@ We describe Fugu, a data-driven ABR algorithm that combines several techniques. 
 
 ### 
 
-The predictor's input includes the sizes and transmission times of past chunks, size of a chunk to be transmitted and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty.
+The predictor's input includes the sizes and transmission times of past chunks, size of a chunk to be transmitted, and low-level TCP statistics\(min RTT, RTT, CWND, packets in flight, delivery rate\) and it will output the **probability distribution over transmission time**, allowing for better decision making compared with a single point estimate without uncertainty.
 
 ### Conclusion
 
