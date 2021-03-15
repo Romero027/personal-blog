@@ -136,7 +136,7 @@
 ## Networking
 
 * [Index](networking/index/README.md)
-  * [Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport](networking/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
+  * [Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport](networking/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
   * [Short Summaries](networking/index/short-summaries.md)
 
 ## Serverless

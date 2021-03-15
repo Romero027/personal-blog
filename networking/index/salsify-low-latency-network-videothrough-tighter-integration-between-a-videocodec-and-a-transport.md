@@ -2,7 +2,7 @@
 description: 'https://cs.stanford.edu/~keithw/salsify-paper.pdf'
 ---
 
-# Salsify: Low-Latency Network Videothrough Tighter Integration between a VideoCodec and a Transport
+# Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport
 
 ### Background and Motivation
 
