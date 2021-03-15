@@ -112,7 +112,6 @@
 ## ML for Systems
 
 * [Index](ml-for-systems/ml-sys-index/README.md)
-  * [Learning in situ: a randomized experiment in video streaming](ml-for-systems/ml-sys-index/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
   * [Short Summaries](ml-for-systems/ml-sys-index/short-summaries.md)
 
 ## Machine Learning
@@ -137,6 +136,7 @@
 
 * [Index](networking/index/README.md)
   * [Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport](networking/index/salsify-low-latency-network-videothrough-tighter-integration-between-a-videocodec-and-a-transport.md)
+  * [Learning in situ: a randomized experiment in video streaming](networking/index/learning-in-situ-a-randomized-experiment-in-video-streaming.md)
   * [Short Summaries](networking/index/short-summaries.md)
 
 ## Serverless
