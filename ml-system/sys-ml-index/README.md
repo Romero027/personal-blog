@@ -17,6 +17,8 @@
   * Described the Federated averaging algorithm
 * \*\*\*\*[**The Non-IID Data Quagmire of Decentralized Machine Learning**](https://arxiv.org/pdf/1910.00189.pdf) - Hsieh et al., arXiv '19 \[[Summary](https://xzhu0027.gitbook.io/blog/ml-system/learning-from-non-iid-data)\]
   * Studied the problem of non-IID data partition, and designed a system-level approach that adapts the communication frequency to reflect the skewness in the data.  
+* \*\*\*\*[**Characterizing Impacts of Heterogeneity in Federated Learning upon Large-Scale Smartphone Data**](https://arxiv.org/abs/2006.06983) - Yang et al., WWW' 21 
+  * Studied the impact of system heterogeneity on existing federated learning algorithms and proposed several nice observations  on potential impact factors
 
 ### Distributed Machine Learning
 
