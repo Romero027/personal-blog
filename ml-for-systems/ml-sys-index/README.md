@@ -36,6 +36,7 @@ Keys for success in these settings:
 * [**Learning in situ: a randomized experiment in video streaming**](https://www.usenix.org/conference/nsdi20/presentation/yan) - Yan et al., NSDI '20 
 * \*\*\*\*[**Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning**](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) ****- Kim et al., SIGCOMM '20
 * \*\*\*\*[**Interpreting Deep Learning-Based Networking Systems**](https://dl.acm.org/doi/10.1145/3387514.3405859) ****- Meng et al., SIGCOMM '20
+* \*\*\*\*[**Alohamora: Reviving HTTP/2 Push and Preload by Adapting Policies On the Fly**](https://www.usenix.org/conference/nsdi21/presentation/kansal) ****- Kansal et al., NSDI '21
 
 ### System
 
