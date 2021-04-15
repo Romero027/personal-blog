@@ -148,6 +148,10 @@
   * [Pocket: Elastic Ephemeral Storage for Serverless Analytics](serverless/index/pocket-elastic-ephemeral-storage-for-serverless-analytics.md)
   * [Fault-tolerant and Transactional Stateful Serverless Workflows](serverless/index/fault-tolerant-and-transactional-stateful-serverless-workflows.md)
 
+## Resource Disaggregation
+
+* [Index](resource-disaggregation/index.md)
+
 ## Edge Computing
 
 * [Index](edge-computing/index.md)
