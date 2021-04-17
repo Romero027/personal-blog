@@ -1,5 +1,9 @@
 # Index
 
+### RDMA
+
+* \*\*\*\*[**Using One-Sided RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store**](https://www.usenix.org/system/files/conference/atc13/atc13-mitchell.pdf) - Mitchell et al., ATC '13
+
 ### Video Streaming
 
 * \*\*\*\*[**Improving Fairness, Efficiency, and Stability in HTTP-based Adaptive Video Streaming with FESTIVE**](http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf) - Jiang et al., CoNEXT '12
