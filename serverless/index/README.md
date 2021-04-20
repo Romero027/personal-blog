@@ -26,4 +26,6 @@
 * \*\*\*\*[**Kappa: A Programming Framework for Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421277) ****- Zhang et al., SoCC '20
   * Uses checkpoints \(implemented using continuations\) to tolerate lambda function timeouts
 * \*\*\*\*[**Fault-tolerant and Transactional Stateful Serverless Workflows**](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran) ****- Zhang et al., OSDI '20
+* \*\*\*\*[**FaasCache: Keeping Serverless Computing Alive with Greedy-Dual Caching**](http://homes.sice.indiana.edu/prateeks/papers/faascache-asplos21.pdf) - Fuerst et al., ASPLOS '21
+* \*\*\*\*[**Caerus: NIMBLE Task Scheduling for Serverless Analytics**](https://www.usenix.org/conference/nsdi21/presentation/zhang-hong#:~:text=We%20present%20Caerus%2C%20a%20task,JCT%20for%20arbitrary%20analytics%20jobs.) ****- Zhang et al., NSDI '21
 
