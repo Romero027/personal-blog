@@ -1,5 +1,9 @@
 # Index
 
+### Architecture
+
+* \*\*\*\*[**A scalable, commodity, data center network architecture**](http://cseweb.ucsd.edu/~vahdat/papers/sigcomm08.pdf) - Al-Fares et al., SIGCOMM '08
+
 ### RDMA
 
 * \*\*\*\*[**Using One-Sided RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store**](https://www.usenix.org/system/files/conference/atc13/atc13-mitchell.pdf) - Mitchell et al., ATC '13
