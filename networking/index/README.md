@@ -8,7 +8,10 @@
 
 * Anuj Kalia's [**PhD thesis**](http://reports-archive.adm.cs.cmu.edu/anon/2019/CMU-CS-19-126.pdf) provides a good overview of emerging network hardware/technology
 * \*\*\*\*[**Using One-Sided RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store**](https://www.usenix.org/system/files/conference/atc13/atc13-mitchell.pdf) - Mitchell et al., ATC '13
+* \*\*\*\*[**FaRM: Fast Remote Memory**](https://www.usenix.org/conference/nsdi14/technical-sessions/dragojevi%C4%87) - Dragojević et al., NSDI '14
 * \*\*\*\*[**Design Guidelines for High Performance RDMA Systems**](https://www.usenix.org/system/files/conference/atc16/atc16_paper-kalia.pdf) - Kalia et al., ATC '16
+* \*\*\*\*[**Revisiting Network Support for RDMA**](https://people.eecs.berkeley.edu/~radhika/irn.pdf) - Mittal et al., SIGCOMM '18
+* \*\*\*\*[**Datacenter RPCs can be General and Fast**](https://www.usenix.org/conference/nsdi19/presentation/kalia) - Kalia et al., NSDI '19
 
 ### Video Streaming
 
