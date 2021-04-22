@@ -1,5 +1,7 @@
 # Index
 
+## Datacenter Networks
+
 ### Architecture
 
 * \*\*\*\*[**A scalable, commodity, data center network architecture**](http://cseweb.ucsd.edu/~vahdat/papers/sigcomm08.pdf) - Al-Fares et al., SIGCOMM '08
@@ -12,6 +14,8 @@
 * \*\*\*\*[**Design Guidelines for High Performance RDMA Systems**](https://www.usenix.org/system/files/conference/atc16/atc16_paper-kalia.pdf) - Kalia et al., ATC '16
 * \*\*\*\*[**Revisiting Network Support for RDMA**](https://people.eecs.berkeley.edu/~radhika/irn.pdf) - Mittal et al., SIGCOMM '18
 * \*\*\*\*[**Datacenter RPCs can be General and Fast**](https://www.usenix.org/conference/nsdi19/presentation/kalia) - Kalia et al., NSDI '19
+
+## Wide Area Networks
 
 ### Video Streaming
 
