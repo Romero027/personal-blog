@@ -15,6 +15,11 @@
 * \*\*\*\*[**Revisiting Network Support for RDMA**](https://people.eecs.berkeley.edu/~radhika/irn.pdf) - Mittal et al., SIGCOMM '18
 * \*\*\*\*[**Datacenter RPCs can be General and Fast**](https://www.usenix.org/conference/nsdi19/presentation/kalia) - Kalia et al., NSDI '19
 
+### Operating Systems
+
+* \*\*\*\*[**IX: A protected dataplane operating system for high throughput and low latency**](https://blog.acolyer.org/2016/06/15/ix-a-protected-dataplane-operating-system-for-high-throughput-and-low-latency/) ****- Belay et al., OSDI '14
+* \*\*\*\*[**Arrakis: the operating system is the control plane** ](https://blog.acolyer.org/2016/06/14/arrakis-the-operating-system-is-the-control-plane/)- Peter et al., OSDI '14
+
 ## Wide Area Networks
 
 ### Video Streaming
