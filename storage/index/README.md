@@ -14,6 +14,7 @@
 * \*\*\*\*[**Blizzard: Fast, Cloud-scale Block Storage for Cloud-oblivious Applications**](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-mickens-james.pdf) - Mickens et al., NSDI '14
 * \*\*\*\*[**Building Consistent Transactions with Inconsistent Replication**](https://syslab.cs.washington.edu/papers/tapir-tr14.pdf) - Zhang et al., SOSP '15 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/building-consistent-transactions-with-inconsistent-replication)\]
 * \*\*\*\*[**Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks**](https://people.csail.mit.edu/matei/papers/2014/socc_tachyon.pdf) - Li et al., SOCC '16 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/tachyon-reliable-memory-speed-storage-for-cluster-computing-frameworks)\]
+* \*\*\*\*[**FairRide: Near-Optimal, Fair Cache Sharing**](https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/pu) ****- Pu et al., NSDI '16 
 * \*\*\*\*[**AdaptSize: Orchestrating the Hot Object Memory Cache in a Content Delivery Network**](https://www.cs.cmu.edu/~harchol/Papers/NSDI17.pdf) - Berger et al., NSDI '17
 * \*\*\*\*[**Exploiting Commutativity For Practical Fast Replication**](https://www.usenix.org/system/files/nsdi19-park.pdf) - Park et al., NSDI '19 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/exploiting-commutativity-for-practical-fast-replication)\]
 * [**DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching**](https://dl.acm.org/doi/10.5555/3323298.3323313) - Liu et al., FAST '19 \[[Summary](https://xzhu0027.gitbook.io/blog/distributed-storage/index/distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed-caching)\]
@@ -22,4 +23,5 @@
 * \*\*\*\*[**PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive redundancy**](https://www.usenix.org/conference/osdi20/presentation/kadekodi) ****- ****Kadekodi  et al., OSDI '20
 * \*\*\*\*[**A large scale analysis of hundreds of in-memory cache clusters at Twitter**](https://www.usenix.org/conference/osdi20/presentation/yang) ****- Yang et al., OSDI '20
 * \*\*\*\*[**The CacheLib Caching Engine: Design and Experiences at Scale**](https://www.usenix.org/conference/osdi20/presentation/berg) ****- Berg et al., OSDI '20
+* \*\*\*\*[**The Storage Hierarchy is Not a Hierarchy: Optimizing Caching on Modern Storage Devices with Orthus**](https://www.usenix.org/conference/fast21/presentation/wu-kan) ****- Wu et al., FAST '21
 
