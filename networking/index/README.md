@@ -17,6 +17,7 @@
 
 ### Operating Systems
 
+* \*\*\*\*[**netmap: a novel framework for fast packet I/O**](https://www.usenix.org/system/files/conference/atc12/atc12-final186.pdf) - Rizzo ATC '12
 * \*\*\*\*[**IX: A protected dataplane operating system for high throughput and low latency**](https://blog.acolyer.org/2016/06/15/ix-a-protected-dataplane-operating-system-for-high-throughput-and-low-latency/) ****- Belay et al., OSDI '14
 * \*\*\*\*[**Arrakis: the operating system is the control plane** ](https://blog.acolyer.org/2016/06/14/arrakis-the-operating-system-is-the-control-plane/)- Peter et al., OSDI '14
 
