@@ -3,6 +3,7 @@
 ### Kernel
 
 * \*\*\*\*[**Exokernel: An Operating System Architecture for Application-Level Resource Management**](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/handouts/papers/engler95exokernel.pdf) ****- Engler SOSP '95
+* \*\*\*\*[**FlexSC: Flexible System Call Scheduling with Exception-Less System Calls**](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Soares.pdf) - et al., OSDI '10
 * \*\*\*\*[**From L3 to seL4 What Have We Learnt in 20 Years of L4 Microkernels?**](https://sigops.org/s/conferences/sosp/2013/papers/p133-elphinstone.pdf) - Elphinstone et al., SOSP '13
 
 ### Non-Volatile Memory
