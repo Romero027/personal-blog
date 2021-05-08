@@ -28,6 +28,7 @@
 * \*\*\*\*[**NetChain: Scale-Free Sub-RTT Coordination**](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf) - Jin et al., NSDI '18
 * \*\*\*\*[**Offloading Distributed Applications onto SmartNICs using iPipe**](https://homes.cs.washington.edu/~arvind/papers/ipipe.pdf) ****- Ming et al., SIGCOMM' 19
 * \*\*\*\*[**Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories**](https://www.usenix.org/system/files/osdi20-li_jialin.pdf) - OSDI' 20
+* \*\*\*\*[**Scaling Distributed Machine Learning with In-Network Aggregation** ](https://homes.cs.washington.edu/~arvind/papers/switch-ml.pdf)- Sapio et al., NSDI '21
 
 ## Wide Area Networks
 
