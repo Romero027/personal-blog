@@ -20,6 +20,7 @@
 * \*\*\*\*[**From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers**](https://www.usenix.org/conference/atc19/presentation/fouladi) ****- ****Fouladi et al., ATC '19
 * \*\*\*\*[**InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache**](https://www.usenix.org/conference/fast20/presentation/wang-ao) ****- Wang et al., FAST '20
 * \*\*\*\*[**A Fault-tolerance Shim for Serverless Computing**](https://dl.acm.org/doi/10.1145/3342195.3387535) ****- Sreekanti et al., EuroSys '20
+* \*\*\*\*[**Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting**](https://dl.acm.org/doi/10.1145/3373376.3378512) - Du et al., ASPLOS '20
 * \*\*\*\*[**Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider**](https://www.usenix.org/conference/atc20/presentation/shahrad) ****- ****Shahrad et al., ATC '20
 * \*\*\*\*[**Cloudburst: Stateful Functions-as-a-service**](https://dl.acm.org/doi/abs/10.14778/3407790.3407836) ****- Sreekanti et al., VLDB '20 
 * \*\*\*\*[**Sequoia: Enabling Quality-of-Service in Serverless Computing**](https://dl.acm.org/doi/10.1145/3419111.3421306) ****- Tariq et al., SoCC '20
@@ -27,5 +28,7 @@
   * Uses checkpoints \(implemented using continuations\) to tolerate lambda function timeouts
 * \*\*\*\*[**Fault-tolerant and Transactional Stateful Serverless Workflows**](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran) ****- Zhang et al., OSDI '20
 * \*\*\*\*[**FaasCache: Keeping Serverless Computing Alive with Greedy-Dual Caching**](http://homes.sice.indiana.edu/prateeks/papers/faascache-asplos21.pdf) - Fuerst et al., ASPLOS '21
+* \*\*\*\*[**Benchmarking, analysis, and optimization of serverless function snapshots**](https://dl.acm.org/doi/abs/10.1145/3445814.3446714) **-** Ustiugov et al., ASPLOS '21
 * \*\*\*\*[**Caerus: NIMBLE Task Scheduling for Serverless Analytics**](https://www.usenix.org/conference/nsdi21/presentation/zhang-hong#:~:text=We%20present%20Caerus%2C%20a%20task,JCT%20for%20arbitrary%20analytics%20jobs.) ****- Zhang et al., NSDI '21
+* \*\*\*\*[**Towards Demystifying Serverless Machine Learning Training**](https://people.inf.ethz.ch/asingla/papers/sigmod21.pdf) - Jiang et al., SIGMOD '21
 
