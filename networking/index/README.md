@@ -31,6 +31,7 @@
 * \*\*\*\*[**E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers**](https://www.usenix.org/conference/atc19/presentation/liu-ming) ****- Ming et al., ATC '19
 * \*\*\*\*[**When Should The Network Be The Computer?**](https://drkp.net/papers/innetwork-hotos19.pdf) - Ports et al., HotOS' 19
 * \*\*\*\*[**Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories**](https://www.usenix.org/system/files/osdi20-li_jialin.pdf) - OSDI' 20
+* \*\*\*\*[**Gallium: Automated Software Middlebox Offloading to Programmable Switches**](https://homes.cs.washington.edu/~arvind/papers/gallium.pdf) - Zhang et al., SIGCOMM '20
 * \*\*\*\*[**Scaling Distributed Machine Learning with In-Network Aggregation** ](https://homes.cs.washington.edu/~arvind/papers/switch-ml.pdf)- Sapio et al., NSDI '21
 * \*\*\*\*[**ATP: In-network Aggregation for Multi-tenant Learning**](https://www.usenix.org/conference/nsdi21/presentation/lao) ****- ****Lao et al., NSDI '21
 
