@@ -24,6 +24,7 @@
 
 ### Programmable Networks
 
+* \*\*\*\*[**IncBricks: Toward In-Network Computation with an In-Network Cache**](https://mgliu.sites.cs.wisc.edu/papers/IncBricks-asplos17.pdf) ****- Liu et al., ASPLOS '17
 * [**NetCache: Balancing key-value stores with fast in-network caching**](https://dl.acm.org/doi/pdf/10.1145/3132747.3132764) ****- Jin et al., SOSP '17
 * \*\*\*\*[**NetChain: Scale-Free Sub-RTT Coordination**](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf) - Jin et al., NSDI '18
 * \*\*\*\*[**Offloading Distributed Applications onto SmartNICs using iPipe**](https://homes.cs.washington.edu/~arvind/papers/ipipe.pdf) ****- Ming et al., SIGCOMM '19
