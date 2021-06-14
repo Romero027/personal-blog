@@ -34,6 +34,9 @@
 * \*\*\*\*[**Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories**](https://www.usenix.org/system/files/osdi20-li_jialin.pdf) - OSDI' 20
 * \*\*\*\*[**Gallium: Automated Software Middlebox Offloading to Programmable Switches**](https://homes.cs.washington.edu/~arvind/papers/gallium.pdf) - Zhang et al., SIGCOMM '20
   * Automattically partitions an input software middlebox into a P4 program that runs on a programmable switch and an x86 non-offloaded program that runs on a regular server
+* \*\*\*\*[**TEA: Enabling State-Intensive Network Functions on Programmable Switches**](https://dl.acm.org/doi/10.1145/3387514.3405855) ****- Kim et al., SIGCOMM '20
+  * Allows NFs on programmable switches to look up large virtual address built on external DRAM. 
+  * Key ideas: RDMA + bounded linear probing 
 * \*\*\*\*[**Scaling Distributed Machine Learning with In-Network Aggregation** ](https://homes.cs.washington.edu/~arvind/papers/switch-ml.pdf)- Sapio et al., NSDI '21
 * \*\*\*\*[**ATP: In-network Aggregation for Multi-tenant Learning**](https://www.usenix.org/conference/nsdi21/presentation/lao) ****- ****Lao et al., NSDI '21
 
