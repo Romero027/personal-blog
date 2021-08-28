@@ -14,6 +14,7 @@
 * \*\*\*\*[**Design Guidelines for High Performance RDMA Systems**](https://www.usenix.org/system/files/conference/atc16/atc16_paper-kalia.pdf) - Kalia et al., ATC '16
 * \*\*\*\*[**Revisiting Network Support for RDMA**](https://people.eecs.berkeley.edu/~radhika/irn.pdf) - Mittal et al., SIGCOMM '18
 * \*\*\*\*[**Datacenter RPCs can be General and Fast**](https://www.usenix.org/conference/nsdi19/presentation/kalia) - Kalia et al., NSDI '19
+* \*\*\*\*[**FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds**](https://www.usenix.org/conference/nsdi19/presentation/kim) **-** Kim et al., NSDI '19
 
 ### Operating Systems
 
